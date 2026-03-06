@@ -1,0 +1,1908 @@
+WEBVTT
+
+25b196f0-c76e-4859-802c-01b81862b7d3/8-0
+00:00:03.423 --> 00:00:07.851
+<v Gus Hytonen>And so I've I've asked Wayne to jump in
+and and kind of have you know share I</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/8-1
+00:00:07.851 --> 00:00:12.165
+<v Gus Hytonen>guess not only some of the technical
+things that maybe we could do or or we</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/8-2
+00:00:12.165 --> 00:00:16.706
+<v Gus Hytonen>currently can do but also you know if you
+know as we I don't know it it kind of</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/8-3
+00:00:16.706 --> 00:00:21.304
+<v Gus Hytonen>depends when you integrate there's like
+1000 different things and meanings right</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/8-4
+00:00:21.304 --> 00:00:23.063
+<v Gus Hytonen>when it comes with that and so.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/10-0
+00:00:23.103 --> 00:00:27.818
+<v Gus Hytonen>I wanted to make sure that if we start
+talking in those terms or that language,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/10-1
+00:00:27.818 --> 00:00:30.647
+<v Gus Hytonen>I mean,
+I think that's a language Wayne speaks,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/10-2
+00:00:30.647 --> 00:00:33.535
+<v Gus Hytonen>not me.
+So I want to make sure that I don't miss</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/10-3
+00:00:33.535 --> 00:00:38.191
+<v Gus Hytonen>misspeak or or anything like that. Jim,
+I guess for a little bit of background</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/10-4
+00:00:38.191 --> 00:00:43.023
+<v Gus Hytonen>before before you we necessarily jump in
+or maybe I'll ask this question first I.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/12-0
+00:00:43.023 --> 00:00:48.073
+<v Gus Hytonen>I believe that the answer is is is Saba,
+but what is what is kind of the back end</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/12-1
+00:00:48.073 --> 00:00:51.583
+<v Gus Hytonen>of the university,
+the FM mobile university? Is it Saba?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/11-0
+00:00:49.343 --> 00:00:49.703
+<v Greenlee, Jay (CW)>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/15-0
+00:00:51.103 --> 00:00:55.261
+<v Gauld, Jim>Yes,
+so in-house we call it Learning Center</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/15-1
+00:00:55.261 --> 00:00:59.608
+<v Gauld, Jim>Online,
+which is currently a cornerstone Saba</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/14-0
+00:00:55.663 --> 00:00:55.783
+<v Gus Hytonen>OK.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/15-2
+00:00:59.608 --> 00:01:04.805
+<v Gauld, Jim>Cloud instance.
+We also do leverage Degreed for one of</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/15-3
+00:01:04.805 --> 00:01:05.183
+<v Gauld, Jim>our.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/16-0
+00:01:06.223 --> 00:01:10.790
+<v Gauld, Jim>Organisations. However,
+if you if you're at all familiar with</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/16-1
+00:01:10.790 --> 00:01:16.094
+<v Gauld, Jim>Cornerstone and what's going on,
+Saba is going away at the end of 2027.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/16-2
+00:01:16.094 --> 00:01:21.029
+<v Gauld, Jim>They're sundowning the platform.
+So we have made recently made the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/16-3
+00:01:21.029 --> 00:01:25.743
+<v Gauld, Jim>decision to migrate over to their
+Cornerstone Learn and Galaxy.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/19-0
+00:01:25.903 --> 00:01:29.264
+<v Gauld, Jim>Platform.
+So that there's no company announcement</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/19-1
+00:01:29.264 --> 00:01:33.834
+<v Gauld, Jim>that's been made on that.
+We literally just made the decision a few</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/19-2
+00:01:33.834 --> 00:01:37.799
+<v Gauld, Jim>weeks ago. So, so,
+but for the purposes of this discussion</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/17-0
+00:01:33.983 --> 00:01:34.903
+<v Gus Hytonen>K.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/19-3
+00:01:37.799 --> 00:01:41.966
+<v Gauld, Jim>and future learning,
+we will still be on Saba through the end</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/19-4
+00:01:41.966 --> 00:01:42.503
+<v Gauld, Jim>of 2027.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/20-0
+00:01:42.783 --> 00:01:50.543
+<v Gauld, Jim>But we should also talk about what how
+things look in their on-demand platform.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/18-0
+00:01:43.183 --> 00:01:43.303
+<v Gus Hytonen>OK.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/21-0
+00:01:50.783 --> 00:01:54.018
+<v Gus Hytonen>OK, awesome. Well,
+let let me kind of start with this. Jim,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/21-1
+00:01:54.018 --> 00:01:58.278
+<v Gus Hytonen>you probably don't have much context to
+brainstorm and and kind of what we do.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/21-2
+00:01:58.278 --> 00:02:01.998
+<v Gus Hytonen>And so I'll give you that 30,
+000 foot view and if there's questions</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/21-3
+00:02:01.998 --> 00:02:05.826
+<v Gus Hytonen>you have as we have this discussion,
+but I think this will be helpful.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/21-4
+00:02:05.826 --> 00:02:10.194
+<v Gus Hytonen>We're we're a Microsoft learning partner.
+We do a lot of of you know kind of end</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/21-5
+00:02:10.194 --> 00:02:10.463
+<v Gus Hytonen>user.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/22-0
+00:02:10.543 --> 00:02:14.303
+<v Gus Hytonen>User focused microlearning,
+we call them flows because there's some</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/22-1
+00:02:14.303 --> 00:02:18.781
+<v Gus Hytonen>really dynamic things that we do where
+you know a user can answer a question and</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/22-2
+00:02:18.781 --> 00:02:22.430
+<v Gus Hytonen>we kind of push them to an area of
+training based on that answer.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/22-3
+00:02:22.430 --> 00:02:26.023
+<v Gus Hytonen>And so there's a really unique end user
+experience that we have.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/23-0
+00:02:26.543 --> 00:02:31.007
+<v Gus Hytonen>That that helps to drive success and you
+know all of the things that we're wanting</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/23-1
+00:02:31.007 --> 00:02:34.986
+<v Gus Hytonen>from from all of our end users as we
+think about technology and training.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/23-2
+00:02:34.986 --> 00:02:38.159
+<v Gus Hytonen>We have a lot of learning outside of
+Microsoft these days.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/23-3
+00:02:38.159 --> 00:02:40.902
+<v Gus Hytonen>I think two of the main things is really
+AI focus.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/23-4
+00:02:40.902 --> 00:02:43.376
+<v Gus Hytonen>We call them AI security and AI
+productivity.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/23-5
+00:02:43.376 --> 00:02:45.903
+<v Gus Hytonen>These are a little bit of tool agnostic
+where.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/24-0
+00:02:46.143 --> 00:02:50.013
+<v Gus Hytonen>We're trying to drive, you know,
+users to be secure with with A I,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/24-1
+00:02:50.013 --> 00:02:53.940
+<v Gus Hytonen>but also productive with A I regardless
+of the tool that they have.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/24-2
+00:02:53.940 --> 00:02:56.943
+<v Gus Hytonen>And and those are some of the things that
+Jonathan,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/24-3
+00:02:56.943 --> 00:03:00.004
+<v Gus Hytonen>myself and teams have been have been
+chatting about.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/24-4
+00:03:00.004 --> 00:03:04.219
+<v Gus Hytonen>We do not really look at ourselves as
+like a learning management system.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/24-5
+00:03:04.219 --> 00:03:05.663
+<v Gus Hytonen>We have a lot of aspects.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/25-0
+00:03:05.743 --> 00:03:11.498
+<v Gus Hytonen>Of that but we we really have narrowed
+into you know this niche of of technology,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/25-1
+00:03:11.498 --> 00:03:16.972
+<v Gus Hytonen>AI and and end user focused and so you
+know that with that said that requires</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/25-2
+00:03:16.972 --> 00:03:22.095
+<v Gus Hytonen>obviously some opportunities to to
+integrate in some different ways with</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/25-3
+00:03:22.095 --> 00:03:25.463
+<v Gus Hytonen>systems we we currently have prebuilt
+ready to.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/26-0
+00:03:25.503 --> 00:03:29.623
+<v Gus Hytonen>Integrations with with Microsoft
+technologies like Teams,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/26-1
+00:03:29.623 --> 00:03:35.020
+<v Gus Hytonen>like Viva Learning, like SharePoint.
+We have a connection already built for</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/26-2
+00:03:35.020 --> 00:03:38.714
+<v Gus Hytonen>SAP SuccessFactors as a learning
+management system.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/26-3
+00:03:38.714 --> 00:03:43.543
+<v Gus Hytonen>I will probably let Wayne talk a little
+bit more about Cornerstone.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/27-0
+00:03:43.903 --> 00:03:47.276
+<v Gus Hytonen>We are doing,
+we're actually getting ready to release</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/27-1
+00:03:47.276 --> 00:03:51.148
+<v Gus Hytonen>some of that like now.
+As far as the Cornerstone integration,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/27-2
+00:03:51.148 --> 00:03:56.020
+<v Gus Hytonen>I I I hesitate to say anything other than
+we're we're actually doing it for a</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/27-3
+00:03:56.020 --> 00:03:59.143
+<v Gus Hytonen>customer right now,
+but it may depend on version.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/28-0
+00:04:00.223 --> 00:04:04.488
+<v Gus Hytonen>And that sort of thing.
+And so I don't want to get ahead of it</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/28-1
+00:04:04.488 --> 00:04:09.497
+<v Gus Hytonen>and say it's it's done right now.
+What we don't though have Jim is a Saba</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/28-2
+00:04:09.497 --> 00:04:11.663
+<v Gus Hytonen>pre-built connection we do have.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/29-0
+00:04:13.103 --> 00:04:17.425
+<v Gus Hytonen>A couple of options that I think it and
+it depends on you know kind of the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/29-1
+00:04:17.425 --> 00:04:21.632
+<v Gus Hytonen>experience that you're trying to drive
+from the university with you know</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/29-2
+00:04:21.632 --> 00:04:25.838
+<v Gus Hytonen>obviously your your learning management
+system being the back end there.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/29-3
+00:04:25.838 --> 00:04:28.143
+<v Gus Hytonen>Today we can easily link any course any.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/30-0
+00:04:28.583 --> 00:04:31.894
+<v Gus Hytonen>Really anything within a homepage,
+the system itself,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/30-1
+00:04:31.894 --> 00:04:34.714
+<v Gus Hytonen>we can do web links into those those
+systems.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/30-2
+00:04:34.714 --> 00:04:39.496
+<v Gus Hytonen>And so if if Saba allows you to web link
+you know into third party courses or</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/30-3
+00:04:39.496 --> 00:04:43.113
+<v Gus Hytonen>tools or things like that,
+we would use single sign on for</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/30-4
+00:04:43.113 --> 00:04:46.423
+<v Gus Hytonen>authentication so it feels super seamless
+for a user.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/31-0
+00:04:46.943 --> 00:04:52.458
+<v Gus Hytonen>But if you're just saying like, hey,
+we want the access point to be in in,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/31-1
+00:04:52.458 --> 00:04:57.531
+<v Gus Hytonen>you know, the FM University,
+like we could do that with links today.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/31-2
+00:04:57.531 --> 00:05:03.266
+<v Gus Hytonen>We do track completions in our system and
+so there's an opportunity to export</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/31-3
+00:05:03.266 --> 00:05:04.663
+<v Gus Hytonen>import on your end.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/32-0
+00:05:04.863 --> 00:05:08.375
+<v Gus Hytonen>That is, that is something that we can do,
+you know,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/32-1
+00:05:08.375 --> 00:05:13.345
+<v Gus Hytonen>kind of right now we do offer open APIs
+and so now we're getting into more</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/32-2
+00:05:13.345 --> 00:05:16.592
+<v Gus Hytonen>technical.
+But if if FM Global wanted to look at</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/32-3
+00:05:16.592 --> 00:05:21.893
+<v Gus Hytonen>those APIs and see how they wanted to
+connect like those are things that we can</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/32-4
+00:05:21.893 --> 00:05:22.423
+<v Gus Hytonen>provide.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/33-0
+00:05:22.783 --> 00:05:26.984
+<v Gus Hytonen>If there's a desire for us to build a
+connection that's more than links, right?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/33-1
+00:05:26.984 --> 00:05:30.974
+<v Gus Hytonen>It's more of a native integration,
+then that's where Wayne and I would need</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/33-2
+00:05:30.974 --> 00:05:33.915
+<v Gus Hytonen>to better understand the experience
+you're looking for.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/33-3
+00:05:33.915 --> 00:05:38.063
+<v Gus Hytonen>And then we would have to look at road
+map and timing and and things like that</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/33-4
+00:05:38.063 --> 00:05:40.846
+<v Gus Hytonen>on our end.
+And I I'm just trying to kind of set the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/33-5
+00:05:40.846 --> 00:05:42.263
+<v Gus Hytonen>stage for you a little bit.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/34-0
+00:05:42.543 --> 00:05:45.460
+<v Gus Hytonen>I think,
+but maybe more curious of what is the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/34-1
+00:05:45.460 --> 00:05:49.867
+<v Gus Hytonen>user experience that you're looking for
+immediately and then maybe our</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/34-2
+00:05:49.867 --> 00:05:53.343
+<v Gus Hytonen>Cornerstone integration actually solves
+this long term.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/35-0
+00:05:55.143 --> 00:05:57.932
+<v Gauld, Jim>Yeah.
+So it it sounds to me like there's a</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/35-1
+00:05:57.932 --> 00:06:01.823
+<v Gauld, Jim>variety of opportunities to connect where
+we might need to.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/35-2
+00:06:01.823 --> 00:06:07.076
+<v Gauld, Jim>I I think the piece that I'm missing is
+and Jonathan you'll you'll need probably</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/35-3
+00:06:07.076 --> 00:06:12.005
+<v Gauld, Jim>need to help me understand like what is
+the user experience like that we're</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/35-4
+00:06:12.005 --> 00:06:12.783
+<v Gauld, Jim>looking for.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/38-0
+00:06:14.703 --> 00:06:20.879
+<v Gauld, Jim>I'm not very familiar with your catalog
+of content, so I apologize for that.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/38-1
+00:06:20.879 --> 00:06:24.569
+<v Gauld, Jim>In as saba as your basic standard LMS,
+right?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/36-0
+00:06:23.223 --> 00:06:23.343
+<v Davis, Johnathan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/38-2
+00:06:24.569 --> 00:06:30.023
+<v Gauld, Jim>So there's nothing too glorious about it
+and it's so we would have.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/37-0
+00:06:25.983 --> 00:06:26.583
+<v Greenlee, Jay (CW)>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/39-0
+00:06:30.383 --> 00:06:35.322
+<v Gauld, Jim>A catalogue of content and we would
+enroll in it and launch it and it would</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/39-1
+00:06:35.322 --> 00:06:40.195
+<v Gauld, Jim>take you either to your platform or.
+But I don't know that that's what I'm</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/39-2
+00:06:40.195 --> 00:06:45.394
+<v Gauld, Jim>hearing is that may not be the intended
+experience for the the best use of your</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/39-3
+00:06:45.394 --> 00:06:48.383
+<v Gauld, Jim>platform the way you intend it to be used
+so.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/41-0
+00:06:48.903 --> 00:06:52.066
+<v Davis, Johnathan>Yeah,
+I can provide a little more context for</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/41-1
+00:06:52.066 --> 00:06:55.572
+<v Davis, Johnathan>you, Jim.
+So the reason why we wanted to have this</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/40-0
+00:06:52.343 --> 00:06:52.823
+<v Gauld, Jim>Mhm.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/41-2
+00:06:55.572 --> 00:07:00.797
+<v Davis, Johnathan>conversation is because Marty would like
+to not for probably won't make it.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/41-3
+00:07:00.797 --> 00:07:04.303
+<v Davis, Johnathan>We definitely won't make it for Q1,
+but for Q2/Q3.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/45-0
+00:07:04.863 --> 00:07:10.405
+<v Davis, Johnathan>We wanted to work with a a partner to
+help with our mandatory learning.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/45-1
+00:07:10.405 --> 00:07:15.639
+<v Davis, Johnathan>So the if you saw the A I fundamentals or
+I forget what we call it,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/42-0
+00:07:12.743 --> 00:07:12.903
+<v Gauld, Jim>M.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/45-2
+00:07:15.639 --> 00:07:20.027
+<v Davis, Johnathan>but the first training that went out in
+December, right,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/45-3
+00:07:20.027 --> 00:07:24.183
+<v Davis, Johnathan>that was something that we curated in
+house and then.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/44-0
+00:07:20.543 --> 00:07:21.143
+<v Gauld, Jim>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/47-0
+00:07:24.383 --> 00:07:27.729
+<v Davis, Johnathan>They're going to be doing another one in
+in March,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/47-1
+00:07:27.729 --> 00:07:31.468
+<v Davis, Johnathan>early March that that that timeline is
+too short for us.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/47-2
+00:07:31.468 --> 00:07:35.666
+<v Davis, Johnathan>That one's going to be focused on
+prompting. So moving forward,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/46-0
+00:07:32.383 --> 00:07:32.503
+<v Gauld, Jim>OK.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/47-3
+00:07:35.666 --> 00:07:39.078
+<v Davis, Johnathan>if we're going to have enterprise wide AI
+training,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/47-4
+00:07:39.078 --> 00:07:42.423
+<v Davis, Johnathan>that's going to be mandatory on a
+quarterly basis.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/48-0
+00:07:42.863 --> 00:07:46.562
+<v Davis, Johnathan>Marty figured it's probably best to try
+to get it through LCO.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/48-1
+00:07:46.562 --> 00:07:50.437
+<v Davis, Johnathan>That's the primary use case.
+Secondary use case would be if we're</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/48-2
+00:07:50.437 --> 00:07:54.077
+<v Davis, Johnathan>going to do targeted,
+if we're going to be targeting specific</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/48-3
+00:07:54.077 --> 00:07:58.715
+<v Davis, Johnathan>roles like field engineers for example,
+then we could probably just point them</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/48-4
+00:07:58.715 --> 00:08:00.183
+<v Davis, Johnathan>directly to the platform.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/49-0
+00:08:00.703 --> 00:08:04.243
+<v Davis, Johnathan>But we're really look we're we want to
+start with the primary goal.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/49-1
+00:08:04.243 --> 00:08:06.846
+<v Davis, Johnathan>I think the low hanging fruit will be the
+target,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/49-2
+00:08:06.846 --> 00:08:09.344
+<v Davis, Johnathan>the role specific education that we want
+to do.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/49-3
+00:08:09.344 --> 00:08:13.248
+<v Davis, Johnathan>But Marty's really looking for a vendor
+partner that can help us with that</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/49-4
+00:08:13.248 --> 00:08:15.903
+<v Davis, Johnathan>mandatory training.
+So when when you ask what the.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/50-0
+00:08:16.703 --> 00:08:19.510
+<v Davis, Johnathan>Desired user experiences.
+I'm looking for simplicity.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/50-1
+00:08:19.510 --> 00:08:22.888
+<v Davis, Johnathan>I'm putting my, you know,
+I'm gonna have to take the training as</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/50-2
+00:08:22.888 --> 00:08:25.331
+<v Davis, Johnathan>well.
+We're all gonna all of FM colleagues are</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/50-3
+00:08:25.331 --> 00:08:28.917
+<v Davis, Johnathan>gonna have to take the training.
+So I know what I don't want from an</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/50-4
+00:08:28.917 --> 00:08:31.932
+<v Davis, Johnathan>experience, right?
+I don't want to have to click multiple</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/50-5
+00:08:31.932 --> 00:08:33.023
+<v Davis, Johnathan>things to get to the.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/51-0
+00:08:33.023 --> 00:08:37.297
+<v Davis, Johnathan>The content that we have to to review.
+So I don't,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/51-1
+00:08:37.297 --> 00:08:43.583
+<v Davis, Johnathan>I don't know what my options are yet,
+but simplicity would be great, yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/52-0
+00:08:44.943 --> 00:08:49.118
+<v Gauld, Jim>Well,
+I'll say this and this is me speaking.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/52-1
+00:08:49.118 --> 00:08:51.623
+<v Gauld, Jim>I don't know that too much.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/54-0
+00:08:50.063 --> 00:08:53.556
+<v Davis, Johnathan>Your Hey, Jim,
+your volume's a little low on my end.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/53-0
+00:08:53.103 --> 00:08:55.863
+<v Gus Hytonen>Yeah, me me too. No, me too.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/54-1
+00:08:53.556 --> 00:08:55.863
+<v Davis, Johnathan>I don't know if that's just me, OK?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/55-0
+00:08:56.143 --> 00:08:59.238
+<v Gauld, Jim>Yeah,
+this is teams doing its thing to me again.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/55-1
+00:08:59.238 --> 00:09:00.943
+<v Gauld, Jim>How about now? That better?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/56-0
+00:09:01.863 --> 00:09:03.663
+<v Davis, Johnathan>A lot better. Yep.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/58-0
+00:09:02.703 --> 00:09:03.703
+<v Gauld, Jim>There. OK, so um.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/57-0
+00:09:04.583 --> 00:09:04.823
+<v Gus Hytonen>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/61-0
+00:09:08.543 --> 00:09:14.139
+<v Gauld, Jim>Working with other vendors who have a
+catalog of content that they want to</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/59-0
+00:09:09.663 --> 00:09:10.703
+<v Davis, Johnathan>Your vendor is here.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/60-0
+00:09:12.143 --> 00:09:12.263
+<v Davis, Johnathan>OK.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/61-1
+00:09:14.139 --> 00:09:18.540
+<v Gauld, Jim>offer through LCO,
+it's it's it's a standard configuration</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/61-2
+00:09:18.540 --> 00:09:24.210
+<v Gauld, Jim>like we could we would import either
+SCORM files or a ICC or URLs to launch</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/61-3
+00:09:24.210 --> 00:09:24.583
+<v Gauld, Jim>into.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/62-0
+00:09:24.943 --> 00:09:31.323
+<v Gauld, Jim>and SSO into the platform when when
+launched. That's pretty standard.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/62-1
+00:09:31.323 --> 00:09:33.783
+<v Gauld, Jim>We were able to do that. Um</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/63-0
+00:09:35.063 --> 00:09:40.271
+<v Gauld, Jim>But this is me not completely familiar
+with the Brainstorm platform and how it's</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/63-1
+00:09:40.271 --> 00:09:44.514
+<v Gauld, Jim>intended to operate, right?
+But assignments and that would be the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/63-2
+00:09:44.514 --> 00:09:49.657
+<v Gauld, Jim>most common type of integration and it
+sounds like you would be able to support</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/63-3
+00:09:49.657 --> 00:09:50.943
+<v Gauld, Jim>something like that.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/64-0
+00:09:52.343 --> 00:09:57.388
+<v Gauld, Jim>What I'm and then in terms of role based
+assignments,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/64-1
+00:09:57.388 --> 00:10:01.779
+<v Gauld, Jim>again depending upon how the catalog is
+built,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/64-2
+00:10:01.779 --> 00:10:06.823
+<v Gauld, Jim>we could we could support that within LCO,
+but again.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/66-0
+00:10:06.983 --> 00:10:10.634
+<v Gauld, Jim>But again,
+Brainstorm may have its own functionality</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/66-1
+00:10:10.634 --> 00:10:15.801
+<v Gauld, Jim>that is much more adapted to the
+experience that you're ultimately looking</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/65-0
+00:10:12.223 --> 00:10:12.583
+<v Wayne Maughan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/66-2
+00:10:15.801 --> 00:10:18.901
+<v Gauld, Jim>for.
+So it's going to be ultimately like the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/66-3
+00:10:18.901 --> 00:10:23.723
+<v Gauld, Jim>points of where are those connection
+points that we need to identify?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/66-4
+00:10:23.723 --> 00:10:25.583
+<v Gauld, Jim>Is it at the content level?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/67-0
+00:10:26.063 --> 00:10:29.663
+<v Gauld, Jim>What we want to try and avoid is.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/69-0
+00:10:31.343 --> 00:10:37.081
+<v Gauld, Jim>We still would like our learning platform
+to be the point of entry for learning.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/69-1
+00:10:37.081 --> 00:10:42.394
+<v Gauld, Jim>We We would hesitate wanting to send
+someone out to a completely different</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/69-2
+00:10:42.394 --> 00:10:46.503
+<v Gauld, Jim>platform and have all of that training
+managed there. Umm</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/71-0
+00:10:47.903 --> 00:10:53.466
+<v Gauld, Jim>But I I suppose there can be exceptions
+once I understand the real where the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/71-1
+00:10:53.466 --> 00:10:57.151
+<v Gauld, Jim>needs are at. Does that make sense?
+As an example,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/71-2
+00:10:57.151 --> 00:11:03.003
+<v Gauld, Jim>our InfoSec team uses a platform that
+does their content is offered through LCO.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/70-0
+00:11:00.463 --> 00:11:00.983
+<v Wayne Maughan>Mhm.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/71-3
+00:11:03.003 --> 00:11:06.543
+<v Gauld, Jim>It's assigned by LCO,
+but in order to make that.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/72-0
+00:11:07.303 --> 00:11:09.023
+<v Gauld, Jim>We have to export the content.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/74-0
+00:11:12.863 --> 00:11:14.263
+<v Gus Hytonen>He froze on me too.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/75-0
+00:11:13.463 --> 00:11:16.743
+<v Gauld, Jim>Performance on that. Oh my God.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/73-0
+00:11:13.783 --> 00:11:14.023
+<v Davis, Johnathan>Mail.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/79-0
+00:11:16.863 --> 00:11:19.208
+<v Davis, Johnathan>Hey Jim. Yeah,
+I think the last thing I caught was you</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/77-0
+00:11:17.903 --> 00:11:18.183
+<v Gauld, Jim>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/79-1
+00:11:19.208 --> 00:11:21.383
+<v Davis, Johnathan>have to export the content and then it
+went quiet.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/78-0
+00:11:22.383 --> 00:11:22.943
+<v Gus Hytonen>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/80-0
+00:11:22.463 --> 00:11:27.646
+<v Gauld, Jim>Yes, OK, sorry.
+We basically we need to we export a SCORM</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/80-1
+00:11:27.646 --> 00:11:32.739
+<v Gauld, Jim>package from that vendor.
+We import it into the library.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/80-2
+00:11:32.739 --> 00:11:37.743
+<v Gauld, Jim>We make assignments in LCO.
+The performance is tracked.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/81-0
+00:11:37.943 --> 00:11:43.093
+<v Gauld, Jim>On the vendor platform and then just
+because the vendor platform has its own</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/81-1
+00:11:43.093 --> 00:11:48.176
+<v Gauld, Jim>custom proprietary functionality that
+they leverage to make other follow-up</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/81-2
+00:11:48.176 --> 00:11:50.583
+<v Gauld, Jim>assignments and stuff like that, so.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/83-0
+00:11:52.063 --> 00:11:57.169
+<v Gauld, Jim>I guess that's that's a convoluted way of
+of me saying it sounds like we have the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/83-1
+00:11:57.169 --> 00:12:00.719
+<v Gauld, Jim>ability to make the connections that
+you're looking for.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/83-2
+00:12:00.719 --> 00:12:05.763
+<v Gauld, Jim>I just need to understand what the what
+the brainstorm experience is intended to</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/83-3
+00:12:05.763 --> 00:12:09.063
+<v Gauld, Jim>be and that might change the decisions
+that we make.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/82-0
+00:12:06.503 --> 00:12:06.743
+<v Wayne Maughan>Sure.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/85-0
+00:12:09.183 --> 00:12:12.096
+<v Wayne Maughan>Yeah, I'm,
+I'm happy to chime in on a few points</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/85-1
+00:12:12.096 --> 00:12:15.246
+<v Wayne Maughan>here as well.
+I think that what we're touching on is</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/85-2
+00:12:15.246 --> 00:12:17.920
+<v Wayne Maughan>different levels of integrations,
+which Gus,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/85-3
+00:12:17.920 --> 00:12:22.497
+<v Wayne Maughan>I know you you touched on earlier,
+you know the the web link I think was one</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/85-4
+00:12:22.497 --> 00:12:26.717
+<v Wayne Maughan>of those. Correct me if I'm wrong Gus,
+but when you're proposing that,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/85-5
+00:12:26.717 --> 00:12:28.143
+<v Wayne Maughan>that was more of like a.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/86-0
+00:12:28.343 --> 00:12:31.536
+<v Wayne Maughan>That's the least amount of effort,
+generally,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/86-1
+00:12:31.536 --> 00:12:37.366
+<v Wayne Maughan>and that's where an organization wants to
+have a single point of entry to something</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/86-2
+00:12:37.366 --> 00:12:41.877
+<v Wayne Maughan>like a homepage, right?
+We see customers do that on a SharePoint</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/86-3
+00:12:41.877 --> 00:12:45.902
+<v Wayne Maughan>site, for example,
+saying go here for Brainstorm the next</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/86-4
+00:12:45.902 --> 00:12:46.943
+<v Wayne Maughan>tier down, Jim.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/87-0
+00:12:47.903 --> 00:12:52.676
+<v Wayne Maughan>Sounds like aligns with that third option
+that you threw out there,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/87-1
+00:12:52.676 --> 00:12:56.816
+<v Wayne Maughan>which was more of a a link on a course
+level. So we don't,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/87-2
+00:12:56.816 --> 00:13:02.431
+<v Wayne Maughan>we don't actually provide our content to
+be fully embedded in another platform,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/87-3
+00:13:02.431 --> 00:13:03.343
+<v Wayne Maughan>so SCORM and.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/88-0
+00:13:03.743 --> 00:13:08.951
+<v Wayne Maughan>And a ICC are are not options that are
+not formats that we support,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/88-1
+00:13:08.951 --> 00:13:14.772
+<v Wayne Maughan>but you know the the list of URLs is is
+probably the most viable option and</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/88-2
+00:13:14.772 --> 00:13:20.823
+<v Wayne Maughan>there's a few things I I think that are
+worth discussing around that that one.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/89-0
+00:13:21.663 --> 00:13:28.041
+<v Wayne Maughan>So when you've made these integrations
+with others and you're ingesting a a list</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/89-1
+00:13:28.041 --> 00:13:31.506
+<v Wayne Maughan>of URLs,
+is that a a static list or are you</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/89-2
+00:13:31.506 --> 00:13:36.703
+<v Wayne Maughan>calling like an endpoint and ingesting a
+list on on some cadence?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/90-0
+00:13:37.823 --> 00:13:37.903
+<v Gauld, Jim>Um.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/92-0
+00:13:40.143 --> 00:13:44.423
+<v Gauld, Jim>I've seen both,
+so for example with a large vendor like.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/91-0
+00:13:42.303 --> 00:13:42.823
+<v Wayne Maughan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/93-0
+00:13:45.823 --> 00:13:50.629
+<v Gauld, Jim>Can you hear me alright with a with a
+larger vendor like LinkedIn we have</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/93-1
+00:13:50.629 --> 00:13:55.824
+<v Gauld, Jim>there's a marketplace connector and it
+creates a course object and that that to</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/93-2
+00:13:55.824 --> 00:13:59.201
+<v Gauld, Jim>connect to it is a URL which we've
+established SSO.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/93-3
+00:13:59.201 --> 00:14:02.903
+<v Gauld, Jim>So when you launch the course you're
+actually launching.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/94-0
+00:14:03.343 --> 00:14:10.192
+<v Gauld, Jim>A new window takes you right into
+LinkedIn and you're authenticated via SSO.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/94-1
+00:14:10.192 --> 00:14:17.664
+<v Gauld, Jim>That's managed through a connector, right?
+We have another vendor who provides it's</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/94-2
+00:14:17.664 --> 00:14:22.823
+<v Gauld, Jim>a deployed SCORM or a URL,
+just they provide the URL and.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/96-0
+00:14:23.143 --> 00:14:26.654
+<v Gauld, Jim>That's what we put in.
+So when we launch the course,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/96-1
+00:14:26.654 --> 00:14:31.954
+<v Gauld, Jim>it does the same thing that is manually
+managed. It's not done via a connector,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/95-0
+00:14:30.583 --> 00:14:31.063
+<v Wayne Maughan>OK.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/96-2
+00:14:31.954 --> 00:14:33.743
+<v Gauld, Jim>so we can do it either way.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/97-0
+00:14:33.903 --> 00:14:37.027
+<v Wayne Maughan>OK. Well,
+I'll just speak to the the pros and cons.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/97-1
+00:14:37.027 --> 00:14:41.832
+<v Wayne Maughan>You know both are options for for us.
+I mean it's probably worth noting as well</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/97-2
+00:14:41.832 --> 00:14:46.457
+<v Wayne Maughan>as that we are an API first platform and
+so the the the behavior that you're</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/97-3
+00:14:46.457 --> 00:14:51.322
+<v Wayne Maughan>seeing utilized in in our admin portal
+which is where everything is administered</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/97-4
+00:14:51.322 --> 00:14:52.343
+<v Wayne Maughan>for end users is.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/98-0
+00:14:52.543 --> 00:14:56.613
+<v Wayne Maughan>Generally available,
+you know we have some restful endpoints</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/98-1
+00:14:56.613 --> 00:15:00.216
+<v Wayne Maughan>for as well.
+So if you're wanting to obtain a list of</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/98-2
+00:15:00.216 --> 00:15:05.021
+<v Wayne Maughan>of the content that we have in our
+platform at any given point in time,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/98-3
+00:15:05.021 --> 00:15:08.023
+<v Wayne Maughan>you know that's an endpoint that can be
+hit.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/99-0
+00:15:08.383 --> 00:15:14.168
+<v Wayne Maughan>And and you can get that as needed, right.
+And so if you were to take that and</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/99-1
+00:15:14.168 --> 00:15:20.026
+<v Wayne Maughan>generally we recommend this as like a a
+first step just to test the experience,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/99-2
+00:15:20.026 --> 00:15:25.884
+<v Wayne Maughan>but isn't typically the best long long
+term experience for end users as you can</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/99-3
+00:15:25.884 --> 00:15:26.543
+<v Wayne Maughan>hit that.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/101-0
+00:15:27.223 --> 00:15:32.294
+<v Wayne Maughan>Pull down a list of of our courses,
+you know that's a point in time and then</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/101-1
+00:15:32.294 --> 00:15:37.298
+<v Wayne Maughan>upload that into an external LMS.
+You know the downside with that of course</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/101-2
+00:15:37.298 --> 00:15:42.500
+<v Wayne Maughan>is that it is a point in time and as we
+make refreshes as and you know I would</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/100-0
+00:15:39.263 --> 00:15:39.623
+<v Gauld, Jim>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/101-3
+00:15:42.500 --> 00:15:46.583
+<v Wayne Maughan>say as we pinned new content,
+that's where it tends to break.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/103-0
+00:15:46.983 --> 00:15:51.462
+<v Wayne Maughan>Whereas you add content, right,
+that's not captured there.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/103-1
+00:15:51.462 --> 00:15:57.383
+<v Wayne Maughan>So that's where you know a integration
+directly with those same endpoints via</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/103-2
+00:15:57.383 --> 00:16:01.103
+<v Wayne Maughan>API call tends to make the most sense
+long term.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/105-0
+00:16:01.983 --> 00:16:08.973
+<v Wayne Maughan>And you know you're calling those
+endpoints to get a an updated list of</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/102-0
+00:16:02.383 --> 00:16:03.103
+<v Gauld, Jim>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/104-0
+00:16:08.463 --> 00:16:09.703
+<v Gauld, Jim>We do.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/105-1
+00:16:08.973 --> 00:16:11.983
+<v Wayne Maughan>content. Now the Yep, go ahead.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/106-0
+00:16:11.343 --> 00:16:14.267
+<v Gauld, Jim>I'm sorry,
+I was gonna just we do have the ability</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/106-1
+00:16:14.267 --> 00:16:14.783
+<v Gauld, Jim>for that.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/107-0
+00:16:15.463 --> 00:16:15.583
+<v Wayne Maughan>OK.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/110-0
+00:16:17.383 --> 00:16:21.589
+<v Wayne Maughan>Great. And then we can work with you.
+Typically that that just becomes a</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/110-1
+00:16:21.589 --> 00:16:25.680
+<v Wayne Maughan>mapping exercise then where we're trying
+to match fields to, you know,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/110-2
+00:16:25.680 --> 00:16:30.347
+<v Wayne Maughan>the destination and we're happy to work
+with whomever on that. And then there's,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/108-0
+00:16:28.463 --> 00:16:28.983
+<v Gauld, Jim>Me.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/110-3
+00:16:30.347 --> 00:16:33.286
+<v Wayne Maughan>you know,
+a few nuances to sort through it when in</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/110-4
+00:16:33.286 --> 00:16:36.743
+<v Wayne Maughan>terms of like the administration you
+mentioned assignments.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/111-0
+00:16:36.983 --> 00:16:40.245
+<v Wayne Maughan>Right.
+So that's something once that once we've</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/109-0
+00:16:39.223 --> 00:16:39.383
+<v Gauld, Jim>Mm.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/111-1
+00:16:40.245 --> 00:16:45.749
+<v Wayne Maughan>determined the destination, the format,
+typically you know our customers are are</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/111-2
+00:16:45.749 --> 00:16:50.710
+<v Wayne Maughan>doing that in one of two locations.
+So if you do that inside of the LMS,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/111-3
+00:16:50.710 --> 00:16:53.496
+<v Wayne Maughan>right,
+you can work with whatever you're</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/111-4
+00:16:53.496 --> 00:16:54.583
+<v Wayne Maughan>ingesting there.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/112-0
+00:16:55.423 --> 00:17:00.052
+<v Wayne Maughan>If you do it in our platform,
+just note that the those assignments are,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/112-1
+00:17:00.052 --> 00:17:05.130
+<v Wayne Maughan>you know we're we're talking about a a
+deeper integration that we're trying to</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/112-2
+00:17:05.130 --> 00:17:10.402
+<v Wayne Maughan>pull basically what's been assigned to in
+users and brainstorm and reconcile that</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/112-3
+00:17:10.402 --> 00:17:13.423
+<v Wayne Maughan>with what's been assigned or prioritized
+in a.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/114-0
+00:17:14.943 --> 00:17:19.068
+<v Wayne Maughan>An external LMS.
+So generally we we advise customers just</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/114-1
+00:17:19.068 --> 00:17:22.694
+<v Wayne Maughan>pick one,
+you know either make those in brainstorm</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/114-2
+00:17:22.694 --> 00:17:27.743
+<v Wayne Maughan>or makes make those in the LMS.
+That'll save you guys time and effort.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/113-0
+00:17:24.983 --> 00:17:25.303
+<v Gauld, Jim>Right.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/115-0
+00:17:30.663 --> 00:17:31.943
+<v Wayne Maughan>And then.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/116-0
+00:17:31.423 --> 00:17:34.088
+<v Gauld, Jim>Yeah, I do agree.
+It would be one of the other,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/116-1
+00:17:34.088 --> 00:17:35.143
+<v Gauld, Jim>certainly not both.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/117-0
+00:17:36.343 --> 00:17:36.583
+<v Wayne Maughan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/119-0
+00:17:37.823 --> 00:17:40.607
+<v Wayne Maughan>So that that that's the administration
+part.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/118-0
+00:17:38.343 --> 00:17:38.663
+<v Gauld, Jim>Um.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/119-1
+00:17:40.607 --> 00:17:45.557
+<v Wayne Maughan>And then you know that we have you know
+the reporting information available via</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/119-2
+00:17:45.557 --> 00:17:49.207
+<v Wayne Maughan>endpoints as well.
+So any completion data you want to get,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/119-3
+00:17:49.207 --> 00:17:51.743
+<v Wayne Maughan>you can hit those same restful endpoints.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/121-0
+00:17:53.903 --> 00:17:56.656
+<v Gus Hytonen>So Jonathan,
+as you're quarterly doing a mandatory</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/121-1
+00:17:56.656 --> 00:17:59.086
+<v Gus Hytonen>training, right,
+and we we log a completion,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/120-0
+00:17:56.823 --> 00:17:57.063
+<v Gauld, Jim>Sure.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/121-2
+00:17:59.086 --> 00:18:03.351
+<v Gus Hytonen>you know there's some work to be done,
+but it can essentially pull back to the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/121-3
+00:18:03.351 --> 00:18:06.158
+<v Gus Hytonen>LMS if that's where you wanted to track
+it. If not,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/121-4
+00:18:06.158 --> 00:18:09.343
+<v Gus Hytonen>it tracks in our system if you're just
+needing it to show.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/123-0
+00:18:09.823 --> 00:18:12.919
+<v Gus Hytonen>Complete. We can show that,
+but if you're wanting to show a complete</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/123-1
+00:18:12.919 --> 00:18:16.195
+<v Gus Hytonen>somewhere other than brainstorm,
+then that's that's kind of what Wayne's</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/122-0
+00:18:15.143 --> 00:18:15.543
+<v Wayne Maughan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/123-2
+00:18:16.195 --> 00:18:16.823
+<v Gus Hytonen>talking about.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/125-0
+00:18:16.543 --> 00:18:19.266
+<v Wayne Maughan>Yeah,
+and that that one's more unlike the the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/125-1
+00:18:19.266 --> 00:18:22.818
+<v Wayne Maughan>assignment administration.
+That one's more of an and right?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/125-2
+00:18:22.818 --> 00:18:26.903
+<v Wayne Maughan>Like you can do it in both places
+simultaneously without any issues.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/124-0
+00:18:26.783 --> 00:18:27.143
+<v Gus Hytonen>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/126-0
+00:18:33.503 --> 00:18:36.153
+<v Gus Hytonen>All right.
+I don't know if there's other questions</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/126-1
+00:18:36.153 --> 00:18:38.906
+<v Gus Hytonen>if I know,
+I know today was kind of meant to be more</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/126-2
+00:18:38.906 --> 00:18:41.504
+<v Gus Hytonen>discovery and and things like that.
+But Jonathan,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/126-3
+00:18:41.504 --> 00:18:45.401
+<v Gus Hytonen>I don't know and obviously Jim,
+if you have other questions there kind of,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/126-4
+00:18:45.401 --> 00:18:47.063
+<v Gus Hytonen>I'm not sure what would be next.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/127-0
+00:18:48.623 --> 00:18:53.501
+<v Davis, Johnathan>I don't have any more questions,
+at least for Brainstorm.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/127-1
+00:18:53.501 --> 00:19:00.314
+<v Davis, Johnathan>More just for Jim. And again, apologies.
+I spent spent some time with John Tang,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/127-2
+00:19:00.314 --> 00:19:04.183
+<v Davis, Johnathan>your counterpart,
+before the end of the year.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/128-0
+00:19:06.143 --> 00:19:10.812
+<v Davis, Johnathan>So for my conversations with him,
+he did mention the the example he talked</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/128-1
+00:19:10.812 --> 00:19:15.419
+<v Davis, Johnathan>about with information security.
+So that's why he suggested that this was</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/128-2
+00:19:15.419 --> 00:19:20.525
+<v Davis, Johnathan>a good next step and we'll probably take
+a a similar approach to what's happening</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/128-3
+00:19:20.525 --> 00:19:22.143
+<v Davis, Johnathan>with information security.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/129-0
+00:19:22.703 --> 00:19:26.574
+<v Davis, Johnathan>Use case that you brought up.
+So with that being said,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/129-1
+00:19:26.574 --> 00:19:32.063
+<v Davis, Johnathan>is there anything else that you would
+need to know from Brainstorm before we?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/130-0
+00:19:33.783 --> 00:19:35.783
+<v Davis, Johnathan>Talk internally about next steps.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/131-0
+00:19:37.343 --> 00:19:41.284
+<v Gauld, Jim>Well, I'm wondering,
+is your API library accessible so that we</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/131-1
+00:19:41.284 --> 00:19:45.037
+<v Gauld, Jim>take a look at it?
+I imagine we'd have to get someone to an</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/131-2
+00:19:45.037 --> 00:19:46.663
+<v Gauld, Jim>architect to look at that.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/132-0
+00:19:48.663 --> 00:19:48.703
+Uh.
+
+25b196f0-c76e-4859-802c-01b81862b7d3/133-0
+00:19:48.943 --> 00:19:51.715
+<v Gus Hytonen>I I believe so, Wayne.
+I'm good to send that over, correct?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/133-1
+00:19:51.715 --> 00:19:52.823
+<v Gus Hytonen>Just through the portal.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/134-0
+00:19:52.423 --> 00:19:55.094
+<v Wayne Maughan>Yeah,
+I was gonna say is it it it is behind a</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/134-1
+00:19:55.094 --> 00:19:57.881
+<v Wayne Maughan>login.
+So as long as you have an account on our</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/134-2
+00:19:57.881 --> 00:20:02.526
+<v Wayne Maughan>platform you would be able to access that.
+But that would be the the one caveat</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/134-3
+00:20:02.526 --> 00:20:05.604
+<v Wayne Maughan>there. Gus,
+I I guess we just need to make sure that</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/134-4
+00:20:05.604 --> 00:20:06.823
+<v Wayne Maughan>everyone on the call.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/135-0
+00:20:17.823 --> 00:20:18.183
+<v Wayne Maughan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/136-0
+00:20:18.223 --> 00:20:18.583
+<v Wayne Maughan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/137-0
+00:20:18.223 --> 00:20:22.949
+<v Gus Hytonen>You would just it either can do a magic
+link or you can do a password on your own,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/137-1
+00:20:22.949 --> 00:20:24.543
+<v Gus Hytonen>but I'll I'll get that sent.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/138-0
+00:20:24.703 --> 00:20:30.590
+<v Gauld, Jim>OK. I kind of have two kind of questions.
+Again, Jonathan, for you,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/138-1
+00:20:30.590 --> 00:20:35.439
+<v Gauld, Jim>is there aside from needing access to
+targeted courses,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/138-2
+00:20:35.439 --> 00:20:42.192
+<v Gauld, Jim>is there any additional functionality on
+the Brainstorm platform that you are</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/138-3
+00:20:42.192 --> 00:20:44.183
+<v Gauld, Jim>looking to to leverage?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/139-0
+00:20:44.303 --> 00:20:49.463
+<v Gauld, Jim>I mean not knowing what exactly I might
+be asking for.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/140-0
+00:20:50.343 --> 00:20:57.167
+<v Davis, Johnathan>Yeah, I I understand your question.
+I think for the purposes of today, no,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/140-1
+00:20:57.167 --> 00:21:04.263
+<v Davis, Johnathan>there is a ton that we could do with
+their platform, but I think the the key.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/142-0
+00:21:05.503 --> 00:21:10.064
+<v Davis, Johnathan>Like the key thing that Marty's looking
+for is the content. But yeah,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/142-1
+00:21:10.064 --> 00:21:14.494
+<v Davis, Johnathan>there's other stuff I know that
+Brainstorm can do, but the primary,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/142-2
+00:21:14.494 --> 00:21:19.771
+<v Davis, Johnathan>the primary use case is the content and
+just their ability to stay on top of the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/142-3
+00:21:19.771 --> 00:21:22.703
+<v Davis, Johnathan>the latest and greatest updates for
+Copilot.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/144-0
+00:21:24.223 --> 00:21:27.846
+<v Gauld, Jim>OK. All right.
+And then I guess for for Wayne,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/143-0
+00:21:26.423 --> 00:21:26.903
+<v Davis, Johnathan>Mhm.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/144-1
+00:21:27.846 --> 00:21:33.319
+<v Gauld, Jim>Gus had mentioned that you're working on
+a connection for Cornerstone.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/144-2
+00:21:33.319 --> 00:21:39.023
+<v Gauld, Jim>I I don't know if it's the Galaxy or just
+their on-demand learn platform.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/145-0
+00:21:39.343 --> 00:21:40.303
+<v Gus Hytonen>It's on demand.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/148-0
+00:21:39.423 --> 00:21:43.075
+<v Gauld, Jim>Is there?
+Can you give any addition on demand? OK.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/146-0
+00:21:42.983 --> 00:21:43.463
+<v Wayne Maughan>Mhm.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/148-1
+00:21:43.075 --> 00:21:46.583
+<v Gauld, Jim>Do you have any timeline information on
+on that?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/150-0
+00:21:47.023 --> 00:21:50.188
+<v Wayne Maughan>We have a,
+I think it was more of a beta launch at</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/150-1
+00:21:50.188 --> 00:21:54.283
+<v Wayne Maughan>the end of the month. So yeah, in January,
+early, early February,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/150-2
+00:21:54.283 --> 00:21:59.495
+<v Wayne Maughan>you know that's going to be opened up for
+for customers to we're just expanding our</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/150-3
+00:21:59.495 --> 00:22:02.598
+<v Wayne Maughan>pilot there.
+Don't anticipate really any major GA</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/150-4
+00:22:02.598 --> 00:22:06.383
+<v Wayne Maughan>release beyond that,
+it's just has to do more with you know.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/152-0
+00:22:07.023 --> 00:22:11.475
+<v Wayne Maughan>What we're observing at that point in
+time, if there's interest there, you know,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/152-1
+00:22:11.475 --> 00:22:15.707
+<v Wayne Maughan>we can certainly include you as part of
+that that early beta or even when it</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/152-2
+00:22:15.707 --> 00:22:18.675
+<v Wayne Maughan>makes sense.
+It sounds like you're maybe a little bit</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/151-0
+00:22:16.663 --> 00:22:17.063
+<v Gauld, Jim>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/152-3
+00:22:18.675 --> 00:22:20.543
+<v Wayne Maughan>out on that though, is that right?</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/155-0
+00:22:21.103 --> 00:22:24.543
+<v Gauld, Jim>Yeah,
+we we are only just now starting the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/155-1
+00:22:24.543 --> 00:22:29.183
+<v Gauld, Jim>implementation,
+but come that time we might be in a place</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/153-0
+00:22:25.943 --> 00:22:26.183
+<v Wayne Maughan>And.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/155-2
+00:22:29.183 --> 00:22:32.703
+<v Gauld, Jim>to to talk about the data again,
+all right.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/154-0
+00:22:30.583 --> 00:22:31.543
+<v Wayne Maughan>Sure.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/159-0
+00:22:32.503 --> 00:22:36.686
+<v Gus Hytonen>Yeah, I I think, Jim,
+we would probably beat you to that,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/159-1
+00:22:36.686 --> 00:22:42.527
+<v Gus Hytonen>meaning we would be done with our beta
+before probably you would be implemented,</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/156-0
+00:22:39.503 --> 00:22:40.143
+<v Wayne Maughan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/157-0
+00:22:42.143 --> 00:22:42.903
+<v Wayne Maughan>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/158-0
+00:22:42.303 --> 00:22:43.863
+<v Gauld, Jim>I think so. That sounds right.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/159-2
+00:22:42.527 --> 00:22:42.743
+<v Gus Hytonen>so.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/160-0
+00:22:44.343 --> 00:22:44.463
+<v Gus Hytonen>Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/162-0
+00:22:45.343 --> 00:22:49.885
+<v Gauld, Jim>All right, great. That's,
+I mean that's as about as much as I need</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/162-1
+00:22:49.885 --> 00:22:53.274
+<v Gauld, Jim>for now.
+It it sounds like we have an opportunity</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/161-0
+00:22:52.743 --> 00:22:52.863
+<v Davis, Johnathan>OK.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/162-2
+00:22:53.274 --> 00:22:56.663
+<v Gauld, Jim>for integrating a number of ways to just
+need to.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/163-0
+00:22:57.663 --> 00:23:03.543
+<v Gauld, Jim>Get some more clarity on on the API
+library and um.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/164-0
+00:23:06.343 --> 00:23:08.183
+<v Gauld, Jim>Those exact titles that you're looking
+for.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/165-0
+00:23:10.503 --> 00:23:10.783
+<v Davis, Johnathan>Awesome.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/166-0
+00:23:10.783 --> 00:23:15.413
+<v Davis, Johnathan>OK, great. So yeah,
+I think that's all we needed then.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/166-1
+00:23:15.413 --> 00:23:20.716
+<v Davis, Johnathan>So it sounds like Gus,
+you'll be sending something over to our</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/166-2
+00:23:20.716 --> 00:23:26.355
+<v Davis, Johnathan>internal team and then Jim,
+you let me know is like next week if I</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/166-3
+00:23:26.355 --> 00:23:30.143
+<v Davis, Johnathan>just get a call with yourself and John
+just.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/167-0
+00:23:30.383 --> 00:23:33.263
+<v Davis, Johnathan>So we're all on the same page for next
+steps.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/168-0
+00:23:33.983 --> 00:23:36.583
+<v Gauld, Jim>Yeah, that'd be fine. Yeah.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/170-0
+00:23:35.263 --> 00:23:40.417
+<v Davis, Johnathan>Yep. OK. All right. Sounds good.
+Just so I can get a response to to Gus</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/169-0
+00:23:37.103 --> 00:23:38.223
+<v Gus Hytonen>OK, awesome.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/170-1
+00:23:40.417 --> 00:23:43.996
+<v Davis, Johnathan>and Wayne,
+and I can also let Marty know what our</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/170-2
+00:23:43.996 --> 00:23:46.143
+<v Davis, Johnathan>intentions are moving forward.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/171-0
+00:23:47.103 --> 00:23:50.360
+<v Gus Hytonen>Awesome.
+I will get that out here today to the</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/171-1
+00:23:50.360 --> 00:23:50.983
+<v Gus Hytonen>group so.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/173-0
+00:23:52.383 --> 00:23:56.263
+<v Davis, Johnathan>Great. Awesome. All right.
+Appreciate the time, guys. Thank you.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/174-0
+00:23:54.863 --> 00:23:58.343
+<v Gus Hytonen>Alright, thank you. See ya.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/172-0
+00:23:55.783 --> 00:23:56.263
+<v Gauld, Jim>Thanks.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/175-0
+00:23:57.863 --> 00:23:58.863
+<v Wayne Maughan>Thanks everyone.</v>
+
+25b196f0-c76e-4859-802c-01b81862b7d3/178-0
+00:23:58.783 --> 00:23:58.943
+<v Gauld, Jim>Bye.</v>

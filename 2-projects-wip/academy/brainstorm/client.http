@@ -1,0 +1,23 @@
+#This is old/outdated due to docs out of date
+# POST /connect/token HTTP/1.1
+# Host: api.brainstorminc.com
+# Ocp-Apim-Subscription-Key: 19267
+# Content-Type: application/x-www-form-urlencoded
+# Accept: */*
+# Content-Length: 97
+
+# "'client_id=9fcffcba-20a5-4045-afe5-b20f47a022ba&client_secret=iuejhwthajdee5c6lgllqtn4x6j7nnas3x02qvqb6fots0d4&grant_type=client_impersonation&scope=gateway.readOnly'"
+
+###
+
+# Get Token - Full Access
+# @name getToken
+POST https://api.brainstorminc.com/connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=9fcffcba-20a5-4045-afe5-b20f47a022ba&client_secret=iuejhwthajdee5c6lgllqtn4x6j7nnas3x02qvqb6fots0d4&grant_type=client_impersonation&scope=gateway.fullAccess
+
+###
+# Get Content (uses token from above automatically)
+GET https://api.brainstorminc.com/api/content
+Authorization: Bearer {{getToken.response.body.access_token}}

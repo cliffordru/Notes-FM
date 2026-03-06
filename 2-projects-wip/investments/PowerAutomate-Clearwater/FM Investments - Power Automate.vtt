@@ -1,0 +1,2238 @@
+WEBVTT
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/7-0
+00:00:03.469 --> 00:00:08.263
+<v Gray, Cliff>Yeah, I'll just do quick, quick intros.
+We can go around real quick. So I'm Cliff,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/6-0
+00:00:03.749 --> 00:00:04.669
+<v Halton, Morgan>Dial.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/7-1
+00:00:08.263 --> 00:00:12.247
+<v Gray, Cliff>I'm a solutions architect and I'm
+relatively new to working with the</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/7-2
+00:00:12.247 --> 00:00:15.481
+<v Gray, Cliff>investments team.
+So I'm kind of learning as well about</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/7-3
+00:00:15.481 --> 00:00:19.582
+<v Gray, Cliff>their platform. And with that,
+I guess I'll hand it over to you, Rick,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/7-4
+00:00:19.582 --> 00:00:21.429
+<v Gray, Cliff>if you want to do a quick intro.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/9-0
+00:00:21.189 --> 00:00:25.956
+<v Carroll, Richard>Yeah, I'm, I'm Rick Carroll.
+I'm the the principal app dev slash</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/9-1
+00:00:25.956 --> 00:00:31.456
+<v Carroll, Richard>solution architect for the for the Hobbs
+Brook team. So we do real estate,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/9-2
+00:00:31.456 --> 00:00:36.956
+<v Carroll, Richard>but also the investments team too.
+So we support all investment accounting</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/8-0
+00:00:35.189 --> 00:00:35.389
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/9-3
+00:00:36.956 --> 00:00:38.349
+<v Carroll, Richard>and investment OPS.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/12-0
+00:00:39.389 --> 00:00:45.742
+<v Carroll, Richard>And so this particular request is tied
+directly to the new investment system,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/12-1
+00:00:45.742 --> 00:00:48.429
+<v Carroll, Richard>the the Clearwater project, yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/11-0
+00:00:46.509 --> 00:00:48.229
+<v Halton, Morgan>There's clear water, right?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/14-0
+00:00:49.269 --> 00:00:53.676
+<v Halton, Morgan>Yep, cool. So Morgan Halton,
+product owner for our collab platforms</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/14-1
+00:00:53.676 --> 00:00:56.657
+<v Halton, Morgan>and tools,
+which really encompasses Exchange,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/14-2
+00:00:56.657 --> 00:00:59.961
+<v Halton, Morgan>SharePoint, Teams,
+all the stuff we use every day.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/14-3
+00:00:59.961 --> 00:01:05.145
+<v Halton, Morgan>And I own a little bit of Power Platform.
+Power Platform at FM has historically</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/14-4
+00:01:05.145 --> 00:01:08.709
+<v Halton, Morgan>been nobody wants to touch it,
+nobody wants to own it.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/15-0
+00:01:08.909 --> 00:01:13.279
+<v Halton, Morgan>But everybody wants to use it.
+So where we are at now,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/15-1
+00:01:13.279 --> 00:01:19.715
+<v Halton, Morgan>we know we have app dev teams using it.
+We want people to use it properly at the</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/15-2
+00:01:19.715 --> 00:01:20.509
+<v Halton, Morgan>same time.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/16-0
+00:01:22.189 --> 00:01:27.200
+<v Halton, Morgan>A lot of times it comes up from an SA
+perspective of is Power Platform really</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/16-1
+00:01:27.200 --> 00:01:31.696
+<v Halton, Morgan>the right spot to put something?
+Sometimes it is, sometimes it's not.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/16-2
+00:01:31.696 --> 00:01:36.321
+<v Halton, Morgan>Not going to debate that here.
+We've got a handful of production things</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/16-3
+00:01:36.321 --> 00:01:40.882
+<v Halton, Morgan>in there. On the Polaris side,
+they're using it for location contacts,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/16-4
+00:01:40.882 --> 00:01:41.909
+<v Halton, Morgan>so we have this.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/17-0
+00:01:42.149 --> 00:01:46.938
+<v Halton, Morgan>This plant at a customer who is our
+primary secondary contact phone number</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/17-1
+00:01:46.938 --> 00:01:51.790
+<v Halton, Morgan>like a contact management system.
+We also have within our ESD department we</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/17-2
+00:01:51.790 --> 00:01:56.770
+<v Halton, Morgan>had an end user citizen developer create
+a power app because he got access to</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/17-3
+00:01:56.770 --> 00:02:01.749
+<v Halton, Morgan>power apps and shared it with 300 people.
+So there's precedent there as well.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/18-0
+00:02:01.869 --> 00:02:05.351
+<v Halton, Morgan>Our stance on it is we don't want to
+squash things and say no,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/18-1
+00:02:05.351 --> 00:02:09.384
+<v Halton, Morgan>you're not allowed to do that.
+We want to make sure that you're doing it</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/18-2
+00:02:09.384 --> 00:02:13.418
+<v Halton, Morgan>the right way. So in the case of ESD,
+there is a review with information</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/18-3
+00:02:13.418 --> 00:02:17.341
+<v Halton, Morgan>security solution architecture where they
+made some tweaks to the app,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/18-4
+00:02:17.341 --> 00:02:21.429
+<v Halton, Morgan>but it was really more about support
+ownership. Is everybody on the same?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/19-0
+00:02:21.629 --> 00:02:25.163
+<v Halton, Morgan>Same page that if this thing breaks,
+who's gonna own it? Who's gonna fix it?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/19-1
+00:02:25.163 --> 00:02:28.925
+<v Halton, Morgan>Let's make sure it's secured so only the
+right people see the right kind of info,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/19-2
+00:02:28.925 --> 00:02:32.137
+<v Halton, Morgan>that kind of thing. And Cliff,
+based on our team's chat that got this</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/19-3
+00:02:32.137 --> 00:02:34.661
+<v Halton, Morgan>all started.
+It sounds like we're going down that path</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/19-4
+00:02:34.661 --> 00:02:36.909
+<v Halton, Morgan>of we're doing the right thing here.
+Let's just.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/20-0
+00:02:37.109 --> 00:02:42.549
+<v Halton, Morgan>Make sure we're doing it correctly and
+set permissions up, set environments up,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/20-1
+00:02:42.549 --> 00:02:45.949
+<v Halton, Morgan>all that stuff.
+So we're following best practice.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/21-0
+00:02:48.429 --> 00:02:52.944
+<v Halton, Morgan>So that being said,
+Power Automate Power Apps falls under</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/21-1
+00:02:52.944 --> 00:02:56.603
+<v Halton, Morgan>that.
+I think Copilot is starting to weave its</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/21-2
+00:02:56.603 --> 00:03:00.806
+<v Halton, Morgan>way into there.
+That's gonna be scary and interesting</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/21-3
+00:03:00.806 --> 00:03:05.243
+<v Halton, Morgan>later this year,
+but and then doesn't apply to you guys,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/21-4
+00:03:05.243 --> 00:03:07.189
+<v Halton, Morgan>but just so you're aware.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/22-0
+00:03:07.469 --> 00:03:11.406
+<v Halton, Morgan>We do have it a a formal approval process.
+Now let's say a citizen dev in the</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/22-1
+00:03:11.406 --> 00:03:15.039
+<v Halton, Morgan>finance side creates a whole bunch of
+stuff in Power Automate and goes,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/22-2
+00:03:15.039 --> 00:03:17.512
+<v Halton, Morgan>this is awesome.
+I want my department to use it.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/22-3
+00:03:17.512 --> 00:03:20.338
+<v Halton, Morgan>There's an approval process to get
+recognition of. Yes,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/22-4
+00:03:20.338 --> 00:03:23.719
+<v Halton, Morgan>product owner is aware that this is out
+there. Who's gonna own it?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/22-5
+00:03:23.719 --> 00:03:25.989
+<v Halton, Morgan>Who's gonna support it?
+Who's paying for it?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/23-0
+00:03:26.509 --> 00:03:31.336
+<v Halton, Morgan>And does it meet FM security standards?
+And if all those things are answered and</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/23-1
+00:03:31.336 --> 00:03:34.613
+<v Halton, Morgan>everybody's comfortable with the answers,
+green light,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/23-2
+00:03:34.613 --> 00:03:37.949
+<v Halton, Morgan>you're in production with your citizen
+developed thing.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/23-3
+00:03:37.949 --> 00:03:42.359
+<v Halton, Morgan>And then specifically in finance,
+they've brought a partner in to build a</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/23-4
+00:03:42.359 --> 00:03:43.669
+<v Halton, Morgan>handful of things for.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/24-0
+00:03:43.989 --> 00:03:47.519
+<v Halton, Morgan>The FM finance side of things has nothing
+to do with investments,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/24-1
+00:03:47.519 --> 00:03:51.743
+<v Halton, Morgan>but they're taking a couple old mainframe
+systems, moving them to a power app,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/24-2
+00:03:51.743 --> 00:03:55.861
+<v Halton, Morgan>and then a bunch of desktop automations
+to automate things where people move</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/24-3
+00:03:55.861 --> 00:03:59.069
+<v Halton, Morgan>their mouse and click and wait days for
+reports to run. So.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/26-0
+00:03:59.549 --> 00:04:03.680
+<v Halton, Morgan>We have precedent to use it here.
+We're still kind of working through our</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/26-1
+00:04:03.680 --> 00:04:07.253
+<v Halton, Morgan>best practices and yeah,
+happy to help you guys out and get you</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/26-2
+00:04:07.253 --> 00:04:09.429
+<v Halton, Morgan>what you need. So that that's my story.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/25-0
+00:04:10.189 --> 00:04:10.869
+<v Gray, Cliff>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/28-0
+00:04:12.229 --> 00:04:15.309
+<v Carroll, Richard>Would it help if I told you what our use
+case was?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/27-0
+00:04:13.149 --> 00:04:13.429
+<v Gray, Cliff>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/29-0
+00:04:14.029 --> 00:04:17.464
+<v Halton, Morgan>Absolutely. Let's jump into that.
+So what are we looking to do?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/29-1
+00:04:17.464 --> 00:04:20.469
+<v Halton, Morgan>How are we doing it now and how do we all
+fit together?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/30-0
+00:04:21.789 --> 00:04:24.611
+<v Carroll, Richard>OK,
+So what one of the main selling points of</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/30-1
+00:04:24.611 --> 00:04:29.335
+<v Carroll, Richard>Clearwater was that they already have
+pre-existing connectivity to all these</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/30-2
+00:04:29.335 --> 00:04:34.304
+<v Carroll, Richard>different banks and investment managers
+and so all the different transactions at</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/30-3
+00:04:34.304 --> 00:04:38.229
+<v Carroll, Richard>the investments group would automatically
+flow into Clearwater.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/31-0
+00:04:38.509 --> 00:04:44.638
+<v Carroll, Richard>That was that was the the pitch to us.
+The reality of it is they don't have 100%</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/31-1
+00:04:44.638 --> 00:04:48.345
+<v Carroll, Richard>coverage,
+so there ends up being a handful right</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/31-2
+00:04:48.345 --> 00:04:53.490
+<v Carroll, Richard>now, at least five or six,
+and there's probably possibility of more</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/31-3
+00:04:53.490 --> 00:04:54.549
+<v Carroll, Richard>in the future.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/32-0
+00:04:54.909 --> 00:05:00.207
+<v Carroll, Richard>Of investment managers that don't have
+connectivity to Clearwater,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/32-1
+00:05:00.207 --> 00:05:03.686
+<v Carroll, Richard>but we need to reflect the amount of
+money,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/32-2
+00:05:03.686 --> 00:05:09.537
+<v Carroll, Richard>the positions we have with those
+investment managers and any transactions</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/32-3
+00:05:09.537 --> 00:05:11.909
+<v Carroll, Richard>that happen on those accounts.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/33-0
+00:05:12.429 --> 00:05:17.647
+<v Carroll, Richard>And communicate that up to Clearwater.
+So the way that Clearwater wants those</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/33-1
+00:05:17.647 --> 00:05:22.262
+<v Carroll, Richard>things communicated to them are in Excel
+files that they call GD TS.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/33-2
+00:05:22.262 --> 00:05:27.279
+<v Carroll, Richard>It's like a global data template.
+So they have a predefined format of what</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/33-3
+00:05:27.279 --> 00:05:28.349
+<v Carroll, Richard>they expect for.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/34-0
+00:05:29.429 --> 00:05:33.818
+<v Carroll, Richard>A position file. I need to know, you know,
+what's the as of date,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/34-1
+00:05:33.818 --> 00:05:39.070
+<v Carroll, Richard>what's the account it's related to,
+what's the QSIP or ticker it's related to?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/34-2
+00:05:39.070 --> 00:05:44.189
+<v Carroll, Richard>How many shares? What's the price?
+Handful of fields like that transactions.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/35-0
+00:05:44.829 --> 00:05:50.029
+<v Carroll, Richard>They have a similar spreadsheet. You know,
+was were dividends declared or was there</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/35-1
+00:05:50.029 --> 00:05:53.062
+<v Carroll, Richard>a stock split?
+Did you buy or sell anything? OK,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/35-2
+00:05:53.062 --> 00:05:57.828
+<v Carroll, Richard>so those are all things that we need to
+communicate to them in spreadsheets.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/35-3
+00:05:57.828 --> 00:06:02.718
+<v Carroll, Richard>So without this Power Automate process,
+what somebody would have to do without</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/35-4
+00:06:02.718 --> 00:06:04.389
+<v Carroll, Richard>the Power Automate process?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/36-0
+00:06:04.589 --> 00:06:09.164
+<v Carroll, Richard>Is that they would have to log into the
+web portal for all these different</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/36-1
+00:06:09.164 --> 00:06:13.067
+<v Carroll, Richard>investment managers.
+Get all that information on a daily basis.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/36-2
+00:06:13.067 --> 00:06:16.177
+<v Carroll, Richard>How many shares do I have?
+What's the going price?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/36-3
+00:06:16.177 --> 00:06:19.531
+<v Carroll, Richard>What's the as of date?
+Fill in all these spreadsheets,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/36-4
+00:06:19.531 --> 00:06:24.349
+<v Carroll, Richard>fill in any transactions that occurred
+and then send them to Clearwater to be.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/37-0
+00:06:24.389 --> 00:06:24.669
+<v Carroll, Richard>Processed.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/39-0
+00:06:27.109 --> 00:06:32.335
+<v Carroll, Richard>What we've built within Power Automate is
+a process that basically automates all</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/39-1
+00:06:32.335 --> 00:06:36.529
+<v Carroll, Richard>those processes of logging into the
+website, grabbing the files,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/38-0
+00:06:33.429 --> 00:06:33.709
+<v Halton, Morgan>Oh.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/39-2
+00:06:36.529 --> 00:06:41.109
+<v Carroll, Richard>hoefully that they have a download that I
+can download and then parse.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/41-0
+00:06:41.709 --> 00:06:47.299
+<v Carroll, Richard>Usually CSVS or Excel sheets,
+put it into the appropriate format and</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/41-1
+00:06:47.299 --> 00:06:53.698
+<v Carroll, Richard>then put it on a folder where Globalscape
+can go and SFTP it up to Clearwater.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/41-2
+00:06:53.698 --> 00:07:00.421
+<v Carroll, Richard>In in some instances we do have to resort
+to screen scraping because some of these</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/40-0
+00:06:53.829 --> 00:06:54.389
+<v Halton, Morgan>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/41-3
+00:07:00.421 --> 00:07:01.069
+<v Carroll, Richard>portals.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/42-0
+00:07:01.429 --> 00:07:06.345
+<v Carroll, Richard>Might not offer, you know,
+position download or transaction download</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/42-1
+00:07:06.345 --> 00:07:10.975
+<v Carroll, Richard>files, so we do that as a last resort.
+But in the vast majority,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/42-2
+00:07:10.975 --> 00:07:16.531
+<v Carroll, Richard>most of them have files that we just
+download the data and then just reformat</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/42-3
+00:07:16.531 --> 00:07:19.309
+<v Carroll, Richard>it to to push it back up to Clearwater.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/43-0
+00:07:19.429 --> 00:07:23.896
+<v Carroll, Richard>So we do that for all the position files
+on a daily basis.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/43-1
+00:07:23.896 --> 00:07:28.286
+<v Carroll, Richard>We also run it through the transactions
+on a daily basis.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/43-2
+00:07:28.286 --> 00:07:32.450
+<v Carroll, Richard>But the the reality is because these are
+mutual funds,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/43-3
+00:07:32.450 --> 00:07:35.629
+<v Carroll, Richard>they typically only generate transactions.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/45-0
+00:07:35.949 --> 00:07:39.866
+<v Carroll, Richard>Usually not even monthly.
+Usually it's like quarterly, so.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/44-0
+00:07:39.029 --> 00:07:39.509
+<v Halton, Morgan>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/45-1
+00:07:39.866 --> 00:07:42.854
+<v Carroll, Richard>So those files are very few and far
+between,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/45-2
+00:07:42.854 --> 00:07:45.509
+<v Carroll, Richard>but the position files get posted daily.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/46-0
+00:07:45.989 --> 00:07:47.669
+<v Halton, Morgan>This is up and running today, right?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/47-0
+00:07:48.109 --> 00:07:51.457
+<v Carroll, Richard>This is running today.
+So currently we're create,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/47-1
+00:07:51.457 --> 00:07:56.479
+<v Carroll, Richard>we create an individual position file for
+every account within Clearwater.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/47-2
+00:07:56.479 --> 00:08:01.301
+<v Carroll, Richard>So right now we're creating a dozen files
+each day for these positions,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/47-3
+00:08:01.301 --> 00:08:06.389
+<v Carroll, Richard>but that's spread over I think 5
+different portals, so some of the portals.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/49-0
+00:08:06.749 --> 00:08:11.412
+<v Carroll, Richard>May have multiple accounts associated
+with them. Some are one to one,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/48-0
+00:08:10.549 --> 00:08:11.029
+<v Halton, Morgan>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/49-1
+00:08:11.412 --> 00:08:16.607
+<v Carroll, Richard>but most usually are are many to one.
+And so the the format that we've agreed</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/49-2
+00:08:16.607 --> 00:08:21.469
+<v Carroll, Richard>upon with Clearwater is each individual
+account we have with Clearwater.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/51-0
+00:08:23.309 --> 00:08:26.709
+<v Carroll, Richard>Generates its own sreadsheet O.
+For these osition files,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/50-0
+00:08:26.349 --> 00:08:26.469
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/51-1
+00:08:26.709 --> 00:08:29.989
+<v Carroll, Richard>it's typically only a single line item
+per sreadsheet.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/52-0
+00:08:30.229 --> 00:08:34.122
+<v Halton, Morgan>Are these cloud flows that run within
+Power Automate?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/52-1
+00:08:34.122 --> 00:08:37.509
+<v Halton, Morgan>Are you using Power Automate Desktop to
+do it?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/56-0
+00:08:37.069 --> 00:08:42.356
+<v Carroll, Richard>They're all desktop because I need to be
+able to do the screen scraping portion of</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/53-0
+00:08:41.469 --> 00:08:42.189
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/56-1
+00:08:42.356 --> 00:08:45.095
+<v Carroll, Richard>it.
+I also need to be able to save it to a</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/56-2
+00:08:45.095 --> 00:08:47.897
+<v Carroll, Richard>network share for the sake of global
+scape.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/54-0
+00:08:45.909 --> 00:08:46.149
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/56-3
+00:08:47.897 --> 00:08:51.909
+<v Carroll, Richard>So those two things kind of knock the
+cloud out of the option.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/55-0
+00:08:50.709 --> 00:08:50.829
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/57-0
+00:08:52.469 --> 00:08:56.937
+<v Halton, Morgan>And then the endpoint that they're
+running on is you have a shared machine,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/57-1
+00:08:56.937 --> 00:08:59.229
+<v Halton, Morgan>a server, just run it on Rick's laptop.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/59-0
+00:08:58.989 --> 00:09:01.724
+<v Carroll, Richard>So,
+so that's one of the things we've been</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/59-1
+00:09:01.724 --> 00:09:05.476
+<v Carroll, Richard>trying to to explore.
+So I had tried to get the picture in</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/59-2
+00:09:05.476 --> 00:09:10.118
+<v Carroll, Richard>picture option within Power Automate to
+work at least off of my desktop,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/59-3
+00:09:10.118 --> 00:09:14.125
+<v Carroll, Richard>because then it wouldn't tie up my
+desktop while it's running,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/58-0
+00:09:13.069 --> 00:09:13.309
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/59-4
+00:09:14.125 --> 00:09:17.749
+<v Carroll, Richard>but nobody on the help desk could get
+that going for me.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/61-0
+00:09:18.029 --> 00:09:23.179
+<v Carroll, Richard>Because of credential issues.
+So we've kind of given up on that.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/61-1
+00:09:23.179 --> 00:09:26.982
+<v Carroll, Richard>We kind of figured that was a stopgap.
+Anyways,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/61-2
+00:09:26.982 --> 00:09:33.003
+<v Carroll, Richard>we do intend to get a a shared virtual
+machine that the team can use to run</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/60-0
+00:09:31.789 --> 00:09:31.909
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/61-3
+00:09:33.003 --> 00:09:34.429
+<v Carroll, Richard>these these flows.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/64-0
+00:09:34.989 --> 00:09:40.495
+<v Carroll, Richard>But because of the nature of the flows,
+they do need to be attended.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/64-1
+00:09:40.495 --> 00:09:46.559
+<v Carroll, Richard>They can't just run on a schedule.
+They need to be on a like basically a an</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/62-0
+00:09:44.029 --> 00:09:44.149
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/63-0
+00:09:45.509 --> 00:09:48.629
+<v Halton, Morgan>That's gonna be my next question is
+attended or unattended.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/64-2
+00:09:46.559 --> 00:09:50.069
+<v Carroll, Richard>open. Yeah, yeah,
+they have to be attended.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/65-0
+00:10:01.309 --> 00:10:01.669
+<v Carroll, Richard>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/66-0
+00:10:01.709 --> 00:10:03.349
+<v Carroll, Richard>Mhm, Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/68-0
+00:10:01.709 --> 00:10:04.647
+<v Halton, Morgan>See what they say.
+Can definitely facilitate that,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/68-1
+00:10:04.647 --> 00:10:08.793
+<v Halton, Morgan>but my team doesn't have the expertise or
+experience with it to go yet.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/68-2
+00:10:08.793 --> 00:10:11.385
+<v Halton, Morgan>You gotta do AB and C and you're good to
+go.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/67-0
+00:10:09.269 --> 00:10:09.429
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/68-3
+00:10:11.385 --> 00:10:15.589
+<v Halton, Morgan>But we can definitely help facilitate
+that. I would say for the virtual.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/69-0
+00:10:18.269 --> 00:10:22.069
+<v Halton, Morgan>There's I'm not on the end point team,
+but I know enough to be dangerous.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/73-0
+00:10:23.549 --> 00:10:28.525
+<v Halton, Morgan>If you're gonna stick with a virtual
+desktop that's like Windows 11 based,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/73-1
+00:10:28.525 --> 00:10:33.766
+<v Halton, Morgan>your options are gonna be with an Azure
+virtual desktop that shared that a few</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/73-2
+00:10:33.766 --> 00:10:37.945
+<v Halton, Morgan>people can log into.
+Those get powered off automatically every</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/73-3
+00:10:37.945 --> 00:10:42.389
+<v Halton, Morgan>night because there's an uptime cost
+associated to them. It's not.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/71-0
+00:10:41.109 --> 00:10:41.309
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/76-0
+00:10:43.149 --> 00:10:46.410
+<v Halton, Morgan>Flat fee per month.
+It's consumption per hour.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/72-0
+00:10:43.749 --> 00:10:43.909
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/76-1
+00:10:46.410 --> 00:10:51.474
+<v Halton, Morgan>I see you're you may be better off
+looking at having just a server built</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/76-2
+00:10:51.474 --> 00:10:56.885
+<v Halton, Morgan>like a server 2025 endpoint in the data
+center that y'all can RDP into and do</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/74-0
+00:10:56.069 --> 00:10:56.509
+<v Carroll, Richard>Mhm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/76-3
+00:10:56.885 --> 00:10:58.549
+<v Halton, Morgan>whatever you need to do.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/75-0
+00:10:58.709 --> 00:10:58.869
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/78-0
+00:10:59.189 --> 00:11:02.965
+<v Halton, Morgan>Because that'll that'll be up 24/7.
+I'll leave that in your hands to figure</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/78-1
+00:11:02.965 --> 00:11:05.300
+<v Halton, Morgan>out,
+but I wanted to make sure you're aware of</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/77-0
+00:11:05.229 --> 00:11:05.349
+<v Carroll, Richard>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/78-2
+00:11:05.300 --> 00:11:09.522
+<v Halton, Morgan>that because we've had based on your time
+zone, they turn off at 5:00 PM local time.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/78-3
+00:11:09.522 --> 00:11:12.205
+<v Halton, Morgan>So you starts up at 3:00.
+It's attended to the point.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/78-4
+00:11:12.205 --> 00:11:16.328
+<v Halton, Morgan>If you click the buttons that you let it
+run and it's running and doing its thing,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/78-5
+00:11:16.328 --> 00:11:17.669
+<v Halton, Morgan>you don't need to be there.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/82-0
+00:11:17.949 --> 00:11:21.021
+<v Halton, Morgan>5:00 PM That machine's gonna shut off.
+It doesn't care.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/79-0
+00:11:19.789 --> 00:11:21.189
+<v Carroll, Richard>Right, right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/82-1
+00:11:21.021 --> 00:11:24.421
+<v Halton, Morgan>It literally just pulls the power plug
+and you gotta redo it.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/82-2
+00:11:24.421 --> 00:11:28.589
+<v Halton, Morgan>So just want you to know that before you
+go down the virtual machine route.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/80-0
+00:11:25.989 --> 00:11:26.229
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/86-0
+00:11:28.269 --> 00:11:32.227
+<v Carroll, Richard>Yeah, I mean this,
+this particular process is really going</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/86-1
+00:11:32.227 --> 00:11:36.452
+<v Carroll, Richard>to only run once a day,
+so it's going to run once a day in the</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/83-0
+00:11:33.589 --> 00:11:33.709
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/86-2
+00:11:36.452 --> 00:11:39.269
+<v Carroll, Richard>morning. So that's not a huge showstopper.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/84-0
+00:11:37.669 --> 00:11:38.509
+<v Halton, Morgan>OK, cool.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/85-0
+00:11:39.909 --> 00:11:40.469
+<v Halton, Morgan>Um.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/89-0
+00:11:42.189 --> 00:11:46.118
+<v Halton, Morgan>Then I think this meeting was about
+getting things out of personal</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/89-1
+00:11:46.118 --> 00:11:50.749
+<v Halton, Morgan>productivity environment into dedicated
+environments, right? Uh, they also OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/87-0
+00:11:47.749 --> 00:11:47.989
+<v Carroll, Richard>Hmm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/88-0
+00:11:49.389 --> 00:11:49.949
+<v Carroll, Richard>Right, yes.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/90-0
+00:11:51.869 --> 00:11:55.485
+<v Halton, Morgan>So how familiar are you guys with Power
+Platform environments?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/90-1
+00:11:55.485 --> 00:11:58.469
+<v Halton, Morgan>I'm just trying to figure out where I
+should start.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/95-0
+00:11:58.509 --> 00:12:02.919
+<v Carroll, Richard>No, not not not much.
+Other than I like I said, I I knew that,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/91-0
+00:12:01.789 --> 00:12:01.909
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/95-1
+00:12:02.919 --> 00:12:05.999
+<v Carroll, Richard>you know,
+I I wanted to have it in a shared</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/95-2
+00:12:05.999 --> 00:12:10.059
+<v Carroll, Richard>environment so that it was easier to
+share with the team.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/92-0
+00:12:09.149 --> 00:12:09.749
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/95-3
+00:12:10.059 --> 00:12:14.679
+<v Carroll, Richard>I did share my flows individually with
+somebody else on the team,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/93-0
+00:12:13.429 --> 00:12:13.549
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/95-4
+00:12:14.679 --> 00:12:16.149
+<v Carroll, Richard>so I wasn't the sole.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/96-0
+00:12:16.469 --> 00:12:20.967
+<v Carroll, Richard>Owner of it,
+but I didn't feel like that was a a good</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/94-0
+00:12:16.749 --> 00:12:17.189
+<v Halton, Morgan>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/99-0
+00:12:20.349 --> 00:12:22.659
+<v Halton, Morgan>Yeah,
+especially when we're talking moving</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/96-1
+00:12:20.967 --> 00:12:22.549
+<v Carroll, Richard>long term solution.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/99-1
+00:12:22.659 --> 00:12:27.010
+<v Halton, Morgan>millions of dollars around in portfolios.
+This isn't something that makes Rick's</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/97-0
+00:12:25.189 --> 00:12:25.429
+<v Carroll, Richard>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/99-2
+00:12:27.010 --> 00:12:29.749
+<v Halton, Morgan>life easier. You know,
+this is kind of a big deal.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/98-0
+00:12:28.589 --> 00:12:30.069
+<v Carroll, Richard>Yeah, yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/100-0
+00:12:30.829 --> 00:12:37.427
+<v Halton, Morgan>So other question would be so these flows,
+are they running under your account or a</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/100-1
+00:12:37.427 --> 00:12:39.469
+<v Halton, Morgan>service account right now?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/102-0
+00:12:39.589 --> 00:12:45.771
+<v Carroll, Richard>So so that is also I I think someone
+something that we need to resolve because</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/102-1
+00:12:45.771 --> 00:12:51.797
+<v Carroll, Richard>right now they are running under my my
+own account but the I'm foreseeing an</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/101-0
+00:12:46.709 --> 00:12:46.829
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/102-2
+00:12:51.797 --> 00:12:55.709
+<v Carroll, Richard>issue because again to you know again
+this whole.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/105-0
+00:12:56.149 --> 00:12:59.320
+<v Carroll, Richard>Situation is is icky and I don't like it
+one bit,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/105-1
+00:12:59.320 --> 00:13:04.330
+<v Carroll, Richard>but I've been rust upon me so I got to
+deal with all the different things that</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/103-0
+00:13:01.669 --> 00:13:01.909
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/105-2
+00:13:04.330 --> 00:13:07.500
+<v Carroll, Richard>go with it.
+So one of the issues is most of these</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/105-3
+00:13:07.500 --> 00:13:11.115
+<v Carroll, Richard>portals use two-factor authentication
+which which means.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/104-0
+00:13:08.789 --> 00:13:08.829
+<v Halton, Morgan>Uh.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/105-4
+00:13:11.115 --> 00:13:15.109
+<v Carroll, Richard>So usually once I do the two-factor
+authentication, it sticks.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/107-0
+00:13:15.469 --> 00:13:22.435
+<v Carroll, Richard>So I'm good for probably some of these.
+I haven't even had to reauthenticate once</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/107-1
+00:13:22.435 --> 00:13:27.787
+<v Carroll, Richard>I said you know, yeah, this is my machine,
+don't ask me again.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/106-0
+00:13:23.629 --> 00:13:24.309
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/107-2
+00:13:27.787 --> 00:13:32.629
+<v Carroll, Richard>But if we have users logging in with
+their own user IDs.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/109-0
+00:13:33.069 --> 00:13:39.370
+<v Carroll, Richard>They're not going to share the same sort
+of pool of of cookies that are stored on</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/108-0
+00:13:37.669 --> 00:13:37.989
+<v Halton, Morgan>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/109-1
+00:13:39.370 --> 00:13:42.905
+<v Carroll, Richard>the browser.
+So having a service account that</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/109-2
+00:13:42.905 --> 00:13:49.205
+<v Carroll, Richard>everybody used to run these flows would
+mean we could set the cookies once and be</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/109-3
+00:13:49.205 --> 00:13:49.589
+<v Carroll, Richard>done.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/110-0
+00:13:50.349 --> 00:13:50.469
+<v Carroll, Richard>Um.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/111-0
+00:13:51.749 --> 00:13:51.829
+<v Halton, Morgan>So.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/113-0
+00:13:52.869 --> 00:13:57.694
+<v Carroll, Richard>And I'm not sure if somebody else logs in
+under their own credentials,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/113-1
+00:13:57.694 --> 00:14:01.771
+<v Carroll, Richard>sets their cookie,
+if that then invalidates mine and we get</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/112-0
+00:14:01.629 --> 00:14:03.229
+<v Halton, Morgan>Yeah, that.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/113-2
+00:14:01.771 --> 00:14:04.149
+<v Carroll, Richard>into a case of ping pong, you know?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/115-0
+00:14:04.949 --> 00:14:09.572
+<v Halton, Morgan>That's getting a little out of me.
+I think that's more of the end point side.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/114-0
+00:14:08.909 --> 00:14:09.429
+<v Carroll, Richard>Mhm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/115-1
+00:14:09.572 --> 00:14:09.749
+<v Halton, Morgan>Um.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/116-0
+00:14:12.029 --> 00:14:16.059
+<v Halton, Morgan>So the people running these flows,
+these would be like the investment</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/116-1
+00:14:16.059 --> 00:14:19.109
+<v Halton, Morgan>managers, right?
+Like the portfolio management team?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/119-0
+00:14:18.349 --> 00:14:21.612
+<v Carroll, Richard>It would be,
+it would I I think at least for the</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/119-1
+00:14:21.612 --> 00:14:26.139
+<v Carroll, Richard>foreseeable future would just be team,
+it would be my team members.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/117-0
+00:14:24.789 --> 00:14:24.909
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/118-0
+00:14:26.029 --> 00:14:30.149
+<v Halton, Morgan>OK, IT people. OK,
+that makes things infinitely easier.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/119-2
+00:14:26.139 --> 00:14:30.466
+<v Carroll, Richard>So it would be IT people.
+It would not be the business I I think</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/119-3
+00:14:30.466 --> 00:14:35.593
+<v Carroll, Richard>right. I think you know pipe dream,
+it would be great if we could voice this</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/119-4
+00:14:35.593 --> 00:14:37.789
+<v Carroll, Richard>off on the business but I I just.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/120-0
+00:14:37.869 --> 00:14:40.269
+<v Carroll, Richard>Just don't see it happening, you know?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/121-0
+00:14:38.909 --> 00:14:47.780
+<v Halton, Morgan>Yeah, OK. So with the virtual machines,
+I think where we're at now is we need to</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/121-1
+00:14:47.780 --> 00:14:53.147
+<v Halton, Morgan>figure out, yeah,
+from a credential perspective,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/121-2
+00:14:53.147 --> 00:14:54.789
+<v Halton, Morgan>is it gonna be?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/123-0
+00:14:55.629 --> 00:14:59.846
+<v Halton, Morgan>A shared service account,
+shared credential where everybody logs in</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/123-1
+00:14:59.846 --> 00:15:03.691
+<v Halton, Morgan>with that credential and does whatever it
+is they need to do.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/123-2
+00:15:03.691 --> 00:15:08.280
+<v Halton, Morgan>Or is Cliff logging in as Cliff?
+Is Rick logging in as Rick and then kind</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/123-3
+00:15:08.280 --> 00:15:12.931
+<v Halton, Morgan>of working in their own profile?
+That's going to have a direct impact back</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/122-0
+00:15:08.789 --> 00:15:09.029
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/123-4
+00:15:12.931 --> 00:15:15.349
+<v Halton, Morgan>onto the type of Azure Virtual Desktop.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/126-0
+00:15:15.549 --> 00:15:18.401
+<v Halton, Morgan>You get,
+whether it's a shared desktop or an</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/126-1
+00:15:18.401 --> 00:15:21.444
+<v Halton, Morgan>individual. So a shared desktop would say,
+hey,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/124-0
+00:15:19.869 --> 00:15:19.989
+<v Carroll, Richard>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/126-2
+00:15:21.444 --> 00:15:25.817
+<v Halton, Morgan>under the covers I have this virtual
+machine, this virtual hardware,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/126-3
+00:15:25.817 --> 00:15:30.887
+<v Halton, Morgan>but I can have multiple profiles logged
+onto it at a time doing their own thing</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/126-4
+00:15:30.887 --> 00:15:35.069
+<v Halton, Morgan>versus what we typically do is map one
+person to one machine. So.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/127-0
+00:15:35.149 --> 00:15:37.589
+<v Halton, Morgan>Rick, you would have your own machine.
+Cliff, you would have your own machine.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/125-0
+00:15:35.189 --> 00:15:35.429
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/129-0
+00:15:39.389 --> 00:15:44.148
+<v Halton, Morgan>So you guys need to kind of figure out
+which path you want to go down there.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/129-1
+00:15:44.148 --> 00:15:48.969
+<v Halton, Morgan>Do you want to tie 1 user to 1 virtual
+machine to run this stuff on or have a</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/129-2
+00:15:48.969 --> 00:15:53.789
+<v Halton, Morgan>shared VM and work with the end point
+team to figure out how that would work?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/131-0
+00:15:54.509 --> 00:15:57.370
+<v Halton, Morgan>If you do a server again out out of my
+wheelhouse,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/128-0
+00:15:54.869 --> 00:15:55.029
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/131-1
+00:15:57.370 --> 00:16:01.352
+<v Halton, Morgan>but I know enough to be dangerous,
+you should be able to have multiple</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/131-2
+00:16:01.352 --> 00:16:05.783
+<v Halton, Morgan>people logged into it at the same time.
+Where I think the server is gonna bite</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/130-0
+00:16:03.709 --> 00:16:04.229
+<v Carroll, Richard>Mhm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/131-3
+00:16:05.783 --> 00:16:09.709
+<v Halton, Morgan>you is if you need to actually use
+desktop version of Excel on there.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/133-0
+00:16:10.189 --> 00:16:14.243
+<v Halton, Morgan>Getting Office installed on there. Yeah,
+it's way,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/133-1
+00:16:14.243 --> 00:16:20.840
+<v Halton, Morgan>way more complicated than it sounds like
+'cause Microsoft's licensing model is per</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/132-0
+00:16:20.829 --> 00:16:22.309
+<v Carroll, Richard>OK, right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/133-2
+00:16:20.840 --> 00:16:22.509
+<v Halton, Morgan>user, not per device.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/134-0
+00:16:23.549 --> 00:16:23.829
+<v Halton, Morgan>Um.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/135-0
+00:16:25.549 --> 00:16:29.349
+<v Halton, Morgan>So there's definitely some architectural
+elements to figure out there.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/139-0
+00:16:30.509 --> 00:16:34.548
+<v Halton, Morgan>From let's just say we have one service
+account that does all this stuff.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/139-1
+00:16:34.548 --> 00:16:37.222
+<v Halton, Morgan>Service account can be stored in password
+state.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/139-2
+00:16:37.222 --> 00:16:40.060
+<v Halton, Morgan>Service account can be licensed for Power
+Platform,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/136-0
+00:16:37.549 --> 00:16:37.989
+<v Carroll, Richard>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/139-3
+00:16:40.060 --> 00:16:43.880
+<v Halton, Morgan>can be licensed for Office to activate
+Excel. Don't worry about that,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/137-0
+00:16:42.869 --> 00:16:43.029
+<v Carroll, Richard>M.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/139-4
+00:16:43.880 --> 00:16:45.189
+<v Halton, Morgan>we'll hook you up there.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/138-0
+00:16:44.269 --> 00:16:44.629
+<v Carroll, Richard>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/140-0
+00:16:46.829 --> 00:16:51.295
+<v Halton, Morgan>At that point now it becomes.
+Is it possible for two people to log into</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/140-1
+00:16:51.295 --> 00:16:55.885
+<v Halton, Morgan>the machine and run the same thing under
+the service account? Don't know.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/140-2
+00:16:55.885 --> 00:17:00.475
+<v Halton, Morgan>Need to figure that out where the
+environments come in in Power Platform.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/140-3
+00:17:00.475 --> 00:17:02.149
+<v Halton, Morgan>So you have your flows now.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/141-0
+00:17:02.829 --> 00:17:06.552
+<v Halton, Morgan>They all live in an environment called
+personal productivity or FM global</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/141-1
+00:17:06.552 --> 00:17:09.569
+<v Halton, Morgan>personal productivity,
+because we haven't rebranded it yet.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/141-2
+00:17:09.569 --> 00:17:13.392
+<v Halton, Morgan>Personal productivity, as you know,
+it's intended for personal productivity</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/141-3
+00:17:13.392 --> 00:17:17.114
+<v Halton, Morgan>stuff. What makes Richard's life easier?
+What makes Morgan's life easier?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/141-4
+00:17:17.114 --> 00:17:20.736
+<v Halton, Morgan>Not for things that drive the business.
+So good thing we're having this</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/141-5
+00:17:20.736 --> 00:17:21.389
+<v Halton, Morgan>conversation.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/142-0
+00:17:21.869 --> 00:17:28.120
+<v Halton, Morgan>We can build out additional environments
+for investments to put this stuff in.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/142-1
+00:17:28.120 --> 00:17:32.629
+<v Halton, Morgan>In Power Platform,
+an environment is just a container of</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/142-2
+00:17:32.629 --> 00:17:36.427
+<v Halton, Morgan>stuff.
+What people typically do is they'll have</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/142-3
+00:17:36.427 --> 00:17:39.749
+<v Halton, Morgan>their solution and then a dev environment.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/145-0
+00:17:40.549 --> 00:17:44.856
+<v Halton, Morgan>A prod environment,
+maybe a sandbox or a staging as well.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/145-1
+00:17:44.856 --> 00:17:50.425
+<v Halton, Morgan>Whatever you guys want, we can do.
+It's just a matter of building out more</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/143-0
+00:17:47.389 --> 00:17:47.669
+<v Carroll, Richard>Hm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/144-0
+00:17:49.829 --> 00:17:50.149
+<v Carroll, Richard>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/145-2
+00:17:50.425 --> 00:17:53.469
+<v Halton, Morgan>environments and then for access to them.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/147-0
+00:17:54.109 --> 00:17:58.542
+<v Halton, Morgan>We can build out permissions with 80
+groups that say people in this group can</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/147-1
+00:17:58.542 --> 00:18:01.383
+<v Halton, Morgan>run things in this environment and only
+run them.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/147-2
+00:18:01.383 --> 00:18:05.360
+<v Halton, Morgan>People in this other group are
+environment owners and makers and they</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/147-3
+00:18:05.360 --> 00:18:09.394
+<v Halton, Morgan>can administer the environment and make
+new things in the environment.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/147-4
+00:18:09.394 --> 00:18:11.269
+<v Halton, Morgan>So we have options there as well.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/146-0
+00:18:10.309 --> 00:18:10.629
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/149-0
+00:18:11.869 --> 00:18:16.089
+<v Halton, Morgan>We could definitely do that.
+And then as far as moving your flows from</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/149-1
+00:18:16.089 --> 00:18:20.011
+<v Halton, Morgan>one environment to another,
+my team would have to help with that.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/149-2
+00:18:20.011 --> 00:18:22.685
+<v Halton, Morgan>What we would do is a screen share with
+you,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/149-3
+00:18:22.685 --> 00:18:26.489
+<v Halton, Morgan>basically have you export it as a
+solution from Power Platform.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/148-0
+00:18:25.949 --> 00:18:26.949
+<v Carroll, Richard>Mm-hmm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/149-4
+00:18:26.489 --> 00:18:28.509
+<v Halton, Morgan>It saves it as a zip file locally.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/151-0
+00:18:28.509 --> 00:18:31.900
+<v Halton, Morgan>And then you can go into the new
+environment you want to move it to,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/151-1
+00:18:31.900 --> 00:18:34.406
+<v Halton, Morgan>upload it,
+and then that's kind of how you move it</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/151-2
+00:18:34.406 --> 00:18:37.846
+<v Halton, Morgan>from one environment to another.
+What you're going to want to look at</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/150-0
+00:18:36.309 --> 00:18:36.429
+<v Carroll, Richard>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/151-3
+00:18:37.846 --> 00:18:40.941
+<v Halton, Morgan>there is this Power Platform concept of
+environment variables.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/151-4
+00:18:40.941 --> 00:18:44.430
+<v Halton, Morgan>So if you're setting variables in your
+actual flows and you find, hey,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/151-5
+00:18:44.430 --> 00:18:47.869
+<v Halton, Morgan>I have 10 flows that I'm setting the same
+variables for all the time.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/153-0
+00:18:48.509 --> 00:18:53.203
+<v Halton, Morgan>Make it an environment variable and then
+that gets set when it moves from</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/153-1
+00:18:53.203 --> 00:18:56.629
+<v Halton, Morgan>environment A to environment B.
+You only set it once.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/153-2
+00:18:56.629 --> 00:18:59.990
+<v Halton, Morgan>You have to go back and set it on every
+single flow.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/152-0
+00:18:58.149 --> 00:18:58.349
+<v Carroll, Richard>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/153-3
+00:18:59.990 --> 00:19:02.845
+<v Halton, Morgan>My team can definitely help do that as
+well.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/153-4
+00:19:02.845 --> 00:19:07.919
+<v Halton, Morgan>Where we don't have anything to offer
+right now is around automation and CI/CD,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/153-5
+00:19:07.919 --> 00:19:08.109
+<v Halton, Morgan>so.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/154-0
+00:19:08.349 --> 00:19:13.372
+<v Halton, Morgan>I have a pipeline in ADO when I update
+something that then wants to pull it from</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/154-1
+00:19:13.372 --> 00:19:17.155
+<v Halton, Morgan>staging and move it to prod.
+We're not doing anything there.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/154-2
+00:19:17.155 --> 00:19:21.805
+<v Halton, Morgan>A couple of teams have started to dabble
+with that and our from a platform</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/154-3
+00:19:21.805 --> 00:19:25.029
+<v Halton, Morgan>standpoint for Power Platform,
+our stance is we'll.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/155-0
+00:19:25.709 --> 00:19:29.134
+<v Halton, Morgan>Tell us what permissions you need to make
+this work and we'll give it to you.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/155-1
+00:19:29.134 --> 00:19:31.855
+<v Halton, Morgan>But we're not going to own your pipelines
+in ADO and Octopus.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/155-2
+00:19:31.855 --> 00:19:34.885
+<v Halton, Morgan>That's on you to figure out,
+but we'll definitely help you enable it</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/155-3
+00:19:34.885 --> 00:19:37.475
+<v Halton, Morgan>if that's somewhere you want to go.
+Some people want that,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/155-4
+00:19:37.475 --> 00:19:40.899
+<v Halton, Morgan>other people are like, no, I'm good,
+just managing it within the environment.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/155-5
+00:19:40.899 --> 00:19:43.269
+<v Halton, Morgan>So whatever works for you works for us
+kind of thing.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/157-0
+00:19:43.229 --> 00:19:46.826
+<v Carroll, Richard>OK. I mean,
+I I I'm hoping that this is not a</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/157-1
+00:19:46.826 --> 00:19:52.768
+<v Carroll, Richard>continuous development situation that
+that that we do this infrequently and</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/156-0
+00:19:50.789 --> 00:19:51.029
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/157-2
+00:19:52.768 --> 00:19:58.709
+<v Carroll, Richard>maybe have to respond to, you know,
+somebody changed their website and now.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/158-0
+00:19:58.469 --> 00:20:00.469
+<v Halton, Morgan>That's exactly what it's gonna be.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/159-0
+00:19:59.429 --> 00:20:03.160
+<v Carroll, Richard>You know the downloads in a different
+place, then you know,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/159-1
+00:20:03.160 --> 00:20:06.393
+<v Carroll, Richard>I I just don't want to.
+I want to build out a whole</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/159-2
+00:20:06.393 --> 00:20:10.869
+<v Carroll, Richard>infrastructure for something that I don't
+envision changing frequently.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/160-0
+00:20:10.909 --> 00:20:14.034
+<v Halton, Morgan>I'm sure you've already gone down this
+path,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/160-1
+00:20:14.034 --> 00:20:19.241
+<v Halton, Morgan>but do any of these vendors have like an
+API we could use just to automate</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/160-2
+00:20:19.241 --> 00:20:22.989
+<v Halton, Morgan>downloading stuff and make people's lives
+easy? Nope.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/164-0
+00:20:20.669 --> 00:20:24.292
+<v Carroll, Richard>No, I because The thing is,
+well that that's the thing, right?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/164-1
+00:20:24.292 --> 00:20:28.891
+<v Carroll, Richard>Clearwater would have integrations with
+these companies if they offered SFTP or</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/161-0
+00:20:28.389 --> 00:20:28.629
+<v Halton, Morgan>Gotcha.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/164-2
+00:20:28.891 --> 00:20:32.513
+<v Carroll, Richard>if they offered an API.
+All they offer is go to our portal and</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/164-3
+00:20:32.513 --> 00:20:36.020
+<v Carroll, Richard>and get the data you want. That's it.
+That's all they offer.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/162-0
+00:20:33.429 --> 00:20:33.669
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/164-4
+00:20:36.020 --> 00:20:40.389
+<v Carroll, Richard>So that's why we're stuck where we're
+stuck and Clearwater is smart enough.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/163-0
+00:20:37.749 --> 00:20:38.309
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/165-0
+00:20:40.669 --> 00:20:43.881
+<v Carroll, Richard>To know, you know what,
+we're not even touching those vendors.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/167-0
+00:20:43.069 --> 00:20:50.255
+<v Halton, Morgan>Yep, hope that makes sense. All right,
+so what's your timeline looking like on</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/165-1
+00:20:43.881 --> 00:20:45.869
+<v Carroll, Richard>You're on your own with them, you know?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/166-0
+00:20:47.589 --> 00:20:47.709
+<v Carroll, Richard>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/167-1
+00:20:50.255 --> 00:20:50.709
+<v Halton, Morgan>this?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/169-0
+00:20:51.949 --> 00:20:54.983
+<v Carroll, Richard>Well,
+so we're already running these these</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/169-1
+00:20:54.983 --> 00:21:00.910
+<v Carroll, Richard>processes today and so I'm I'm running it
+on a daily basis and now that I've shared</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/169-2
+00:21:00.910 --> 00:21:06.202
+<v Carroll, Richard>it with somebody else in my team,
+he can at least run it himself if if I'm</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/169-3
+00:21:06.202 --> 00:21:08.389
+<v Carroll, Richard>not around for whatever reason.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/171-0
+00:21:09.029 --> 00:21:15.683
+<v Carroll, Richard>So we're covered at the bare minimum and
+like I said, we're producing files today.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/170-0
+00:21:12.189 --> 00:21:12.309
+<v Halton, Morgan>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/171-1
+00:21:15.683 --> 00:21:19.371
+<v Carroll, Richard>They're going into Clearwater today.
+Ideally,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/171-2
+00:21:19.371 --> 00:21:26.024
+<v Carroll, Richard>if I could get the environments created,
+then I think it would be easier for us to</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/171-3
+00:21:26.024 --> 00:21:28.589
+<v Carroll, Richard>maybe start bringing other team.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/173-0
+00:21:29.429 --> 00:21:33.966
+<v Carroll, Richard>Members into the mix beyond just myself
+and and Joe Ellis.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/173-1
+00:21:33.966 --> 00:21:38.196
+<v Carroll, Richard>And then the next step after that would
+be saying, OK,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/173-2
+00:21:38.196 --> 00:21:44.270
+<v Carroll, Richard>what can we do to put this into a shared
+VM or something where where basically</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/172-0
+00:21:41.629 --> 00:21:41.949
+<v Halton, Morgan>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/173-3
+00:21:44.270 --> 00:21:46.269
+<v Carroll, Richard>it's all in one place and.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/174-0
+00:21:46.349 --> 00:21:49.194
+<v Carroll, Richard>You know,
+everybody knows that's where you go to to</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/174-1
+00:21:49.194 --> 00:21:50.069
+<v Carroll, Richard>run these flows.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/175-0
+00:21:49.789 --> 00:21:53.869
+<v Halton, Morgan>Yep, awesome.
+So we can definitely help with that. Um.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/178-0
+00:21:55.389 --> 00:21:59.691
+<v Halton, Morgan>Both in this week and probably next week
+or the week after we could get</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/178-1
+00:21:59.691 --> 00:22:03.574
+<v Halton, Morgan>environments built out.
+What I would say to that is I will set a</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/178-2
+00:22:03.574 --> 00:22:08.473
+<v Halton, Morgan>call up with this same crew and I'm going
+to add Chris Cahill in from my team and</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/178-3
+00:22:08.473 --> 00:22:13.133
+<v Halton, Morgan>then we can go that next level down with
+Chris of what do we want to call the</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/177-0
+00:22:09.949 --> 00:22:10.069
+<v Carroll, Richard>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/178-4
+00:22:13.133 --> 00:22:13.909
+<v Halton, Morgan>environments.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/183-0
+00:22:14.709 --> 00:22:17.732
+<v Halton, Morgan>Who needs what roles?
+He can help you figure out what AD groups</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/183-1
+00:22:17.732 --> 00:22:21.558
+<v Halton, Morgan>need to get created 'cause what we like
+to do is link groups to roles so that we</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/183-2
+00:22:21.558 --> 00:22:25.336
+<v Halton, Morgan>can just offload that to security admin
+and have defined ownership around that.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/179-0
+00:22:22.109 --> 00:22:22.509
+<v Carroll, Richard>Hmm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/180-0
+00:22:23.829 --> 00:22:24.149
+<v Carroll, Richard>Right.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/183-3
+00:22:25.336 --> 00:22:28.878
+<v Halton, Morgan>So probably have Barbara or somebody on
+the investment side be an approver</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/181-0
+00:22:26.429 --> 00:22:26.749
+<v Carroll, Richard>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/183-4
+00:22:28.878 --> 00:22:31.995
+<v Halton, Morgan>depending on what the data is.
+I'll let you guys figure that out.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/182-0
+00:22:31.669 --> 00:22:32.869
+<v Carroll, Richard>OK, yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/183-5
+00:22:31.995 --> 00:22:33.789
+<v Halton, Morgan>Don't need to get involved there, but.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/184-0
+00:22:33.869 --> 00:22:44.149
+<v Halton, Morgan>So we're good there and then Cliff from
+an SA perspective, so.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/186-0
+00:22:46.309 --> 00:22:50.452
+<v Halton, Morgan>Probably check with either Phil or Mark
+Lesk. Just heads up,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/186-1
+00:22:50.452 --> 00:22:55.273
+<v Halton, Morgan>make sure they're aware that this work is
+occurring in Power Platform.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/186-2
+00:22:55.273 --> 00:23:00.569
+<v Halton, Morgan>That approval process that we talked
+about earlier was developed specifically</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/186-3
+00:23:00.569 --> 00:23:03.149
+<v Halton, Morgan>with Mark about a year and a half ago.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/187-0
+00:23:03.389 --> 00:23:07.166
+<v Halton, Morgan>And we kind of made a decision at that
+time of like anything IT related,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/185-0
+00:23:03.709 --> 00:23:04.229
+<v Gray, Cliff>Mhm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/187-1
+00:23:07.166 --> 00:23:10.322
+<v Halton, Morgan>we're not going to run through that
+process because it's IT,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/187-2
+00:23:10.322 --> 00:23:13.478
+<v Halton, Morgan>it's not citizen dev.
+But I think just raising awareness of,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/187-3
+00:23:13.478 --> 00:23:15.807
+<v Halton, Morgan>hey,
+we're doing something official in Power</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/187-4
+00:23:15.807 --> 00:23:18.342
+<v Halton, Morgan>Platform needs to happen on your side
+within SA,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/187-5
+00:23:18.342 --> 00:23:21.549
+<v Halton, Morgan>just so people know that something's
+going to Power Platform.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/188-0
+00:23:22.029 --> 00:23:26.149
+<v Gray, Cliff>OK, yeah, I'll definitely, uh,
+let them both know.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/189-0
+00:23:26.349 --> 00:23:28.389
+<v Halton, Morgan>Yep. Um.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/191-0
+00:23:27.909 --> 00:23:32.389
+<v Carroll, Richard>Yeah, I mean, Mark, Mark's already aware.
+I mean, we've we've, we've met with Mark.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/190-0
+00:23:30.469 --> 00:23:32.949
+<v Halton, Morgan>OK, cool. Awesome.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/192-0
+00:23:34.189 --> 00:23:41.534
+<v Halton, Morgan>And the other thing I wonder and I don't
+think Infosec needs to be involved here,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/192-1
+00:23:41.534 --> 00:23:48.789
+<v Halton, Morgan>but I'm just gonna ping John Bruno over
+the Infosec team and get his take on it.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/195-0
+00:23:48.829 --> 00:23:53.110
+<v Halton, Morgan>Just given the type of financial data
+that's moving around and we're trying to</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/195-1
+00:23:53.110 --> 00:23:56.144
+<v Halton, Morgan>do things right,
+I don't think they need to be involved</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/195-2
+00:23:56.144 --> 00:23:58.691
+<v Halton, Morgan>and do a write up,
+but I can't speak for them.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/195-3
+00:23:58.691 --> 00:24:02.429
+<v Halton, Morgan>So we'll just cross that one off and make
+sure we're all good there.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/193-0
+00:23:58.709 --> 00:23:59.189
+<v Carroll, Richard>Mhm.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/194-0
+00:24:02.549 --> 00:24:02.629
+<v Carroll, Richard>Um.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/196-0
+00:24:07.229 --> 00:24:10.743
+<v Halton, Morgan>All right, cool.
+So we're almost at the end of our time</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/196-1
+00:24:10.743 --> 00:24:14.884
+<v Halton, Morgan>here. What else we got going on?
+Did I answer all your questions?</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/196-2
+00:24:14.884 --> 00:24:16.829
+<v Halton, Morgan>Not enough info. Too much info.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/198-0
+00:24:17.949 --> 00:24:21.719
+<v Carroll, Richard>No, I think we're,
+I think we're good for now. Like I said,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/197-0
+00:24:20.469 --> 00:24:21.229
+<v Halton, Morgan>OK, cool.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/198-1
+00:24:21.719 --> 00:24:26.620
+<v Carroll, Richard>I I think once we have the environments
+up and running and and we've probably</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/198-2
+00:24:26.620 --> 00:24:31.459
+<v Carroll, Richard>discussed who on our team should have
+access, once the AD groups are set up,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/198-3
+00:24:31.459 --> 00:24:33.029
+<v Carroll, Richard>that'll that'll all help.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/200-0
+00:24:32.429 --> 00:24:36.762
+<v Halton, Morgan>Yep. Yeah.
+And then the the endpoint side of things,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/199-0
+00:24:33.309 --> 00:24:33.829
+<v Carroll, Richard>Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/200-1
+00:24:36.762 --> 00:24:39.949
+<v Halton, Morgan>the virtual machine side of things. Um.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/203-0
+00:24:40.909 --> 00:24:45.351
+<v Halton, Morgan>I'm gonna sound like a broken record here.
+Open a Service Desk ticket if you need to,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/203-1
+00:24:45.351 --> 00:24:48.708
+<v Halton, Morgan>just to get that conversation started.
+I'll give Steve Marshall,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/201-0
+00:24:47.029 --> 00:24:47.189
+<v Carroll, Richard>OK.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/203-2
+00:24:48.708 --> 00:24:51.858
+<v Halton, Morgan>their product owner,
+a heads up and just that it's coming in</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/203-3
+00:24:51.858 --> 00:24:55.989
+<v Halton, Morgan>and this is more than just somebody but a
+help desk ticket and asking for help.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/202-0
+00:24:56.269 --> 00:24:56.709
+<v Carroll, Richard>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/204-0
+00:24:56.269 --> 00:24:59.989
+<v Halton, Morgan>But it's gonna make its way to his team,
+so I'll give him a heads up that we had</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/204-1
+00:24:59.989 --> 00:25:02.837
+<v Halton, Morgan>this conversation as well,
+but my team typically wouldn't get</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/204-2
+00:25:02.837 --> 00:25:03.709
+<v Halton, Morgan>involved there, so.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/207-0
+00:25:04.709 --> 00:25:07.624
+<v Halton, Morgan>You guys can work with them on that and
+get what you need,</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/207-1
+00:25:07.624 --> 00:25:10.984
+<v Halton, Morgan>but ultimately the the plan would be to
+offload it off your laptop.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/205-0
+00:25:08.029 --> 00:25:08.149
+<v Carroll, Richard>But.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/207-2
+00:25:10.984 --> 00:25:14.788
+<v Halton, Morgan>I know Yogesh and the finance crew that's
+working on things running ran into</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/207-3
+00:25:14.788 --> 00:25:18.641
+<v Halton, Morgan>similar issues of this is gonna run for
+three hours and it ties up my laptop.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/207-4
+00:25:18.641 --> 00:25:19.629
+<v Halton, Morgan>So we need a Plan B.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/208-0
+00:25:19.709 --> 00:25:23.069
+<v Halton, Morgan>I don't know what they went with though,
+but you're not the first.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/206-0
+00:25:19.749 --> 00:25:20.029
+<v Carroll, Richard>Right. Yep.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/209-0
+00:25:24.309 --> 00:25:24.429
+<v Carroll, Richard>Yeah.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/211-0
+00:25:29.069 --> 00:25:33.271
+<v Halton, Morgan>All right. Well, that does it.
+I'll set something up for probably middle</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/211-1
+00:25:33.271 --> 00:25:37.876
+<v Halton, Morgan>towards end of next week with Chris on my
+team and we can reconvene and take it</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/211-2
+00:25:37.876 --> 00:25:38.509
+<v Halton, Morgan>from there.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/210-0
+00:25:39.189 --> 00:25:39.829
+<v Carroll, Richard>Sounds good.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/212-0
+00:25:39.989 --> 00:25:40.349
+<v Halton, Morgan>Awesome.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/213-0
+00:25:40.589 --> 00:25:41.749
+<v Gray, Cliff>Yeah, sounds good.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/214-0
+00:25:42.429 --> 00:25:44.109
+<v Halton, Morgan>Alright, have a good one, guys.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/215-0
+00:25:44.509 --> 00:25:45.269
+<v Carroll, Richard>All right. Thanks.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/219-0
+00:25:45.909 --> 00:25:47.429
+<v Gray, Cliff>Thanks guys. Bye.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/220-0
+00:25:46.349 --> 00:25:48.069
+<v Halton, Morgan>Hey, yeah, hey.</v>
+
+a74b1f42-1703-4ef2-bbf3-fc989ed78916/218-0
+00:25:47.749 --> 00:25:48.069
+<v Carroll, Richard>Alright.</v>

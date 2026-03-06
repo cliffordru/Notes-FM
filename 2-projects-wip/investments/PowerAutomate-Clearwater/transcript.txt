@@ -1,0 +1,210 @@
+Carroll, Richard
+0 minutes 3 seconds0:03
+Carroll, Richard 0 minutes 3 seconds
+Something that could just be scheduled, out of sight, out of mind and you know.
+
+Lesk, Mark
+0 minutes 6 seconds0:06
+Lesk, Mark 0 minutes 6 seconds
+I think it could be, I could, it could, it could be scheduled I guess, but it's still the MFA is the challenge, right? Because even when you run it, you've got to deal with the MFA coming in, right? I don't know if it's like via text or via e-mail that you do the MFA work.
+
+Carroll, Richard
+0 minutes 21 seconds0:21
+Carroll, Richard 0 minutes 21 seconds
+Well, I mean to be honest, once once we set up the initial MFA for all these sites, we haven't had to redo it since so.
+
+Murphy, Phillip
+0 minutes 21 seconds0:21
+Murphy, Phillip 0 minutes 21 seconds
+You probably need.
+
+Lesk, Mark
+0 minutes 27 seconds0:27
+Lesk, Mark 0 minutes 27 seconds
+Yeah, so you can be running, you can be running this on a Power Automate schedule under your account on your behalf, right? And then basically when MFA failed, the job would fail.
+
+Carroll, Richard
+0 minutes 35 seconds0:35
+Carroll, Richard 0 minutes 35 seconds
+Mhm.
+
+Lesk, Mark
+0 minutes 43 seconds0:43
+Lesk, Mark 0 minutes 43 seconds
+Right. On on those circumstances, you'd probably have to kind of someone would have to deal with it. I think still you probably wouldn't want.
+
+Carroll, Richard
+0 minutes 44 seconds0:44
+Carroll, Richard 0 minutes 44 seconds
+Right.
+
+Lesk, Mark
+0 minutes 54 seconds0:54
+Lesk, Mark 0 minutes 54 seconds
+I haven't. I I I don't know how Power Automate works. Like you still probably wouldn't want to store, particularly if multiple people could run it. You're not gonna want to store your credentials in the Power Automate script, but.
+Lesk, Mark 1 minute 9 seconds
+That could be. Anyway, I I just think that that's maybe one option. So we should kind of enumerate these options. Like one option is what you're doing today, problematic. Another option is you you're able to invoke this still within the context of you as a user, but on a different machine.
+
+Carroll, Richard
+7 minutes 55 seconds7:55
+Carroll, Richard 7 minutes 55 seconds
+Yeah.
+Carroll, Richard 7 minutes 57 seconds
+Yeah.
+Carroll, Richard 8 minutes 7 seconds
+Mhm.
+Carroll, Richard 8 minutes 9 seconds
+No.
+
+Lesk, Mark
+8 minutes 10 seconds8:10
+Lesk, Mark 8 minutes 10 seconds
+And the only kind of hiccup there is um.
+Lesk, Mark 8 minutes 14 seconds
+The MFA bit, which sounds like it'll be somewhat manual, and so you could.
+Lesk, Mark 8 minutes 22 seconds
+You know you're not gonna know exactly when that's gonna fail, potentially, right? And so someone still probably needs to monitor the that the job ran every day, at least, right?
+
+Carroll, Richard
+8 minutes 26 seconds8:26
+Carroll, Richard 8 minutes 26 seconds
+Right.
+Carroll, Richard 8 minutes 34 seconds
+Yeah, my my process creates an e-mail and and sends it right now to me, but I could have it sent to a distribution list that shows me which jobs failed.
+
+Lesk, Mark
+8 minutes 43 seconds8:43
+Lesk, Mark 8 minutes 43 seconds
+Perfect. OK. Yeah, I I don't know that that to me. I would recommend that we take that approach because it sort of keeps it in the in the purview of personal productivity and doesn't sort of, you know, open up a whole can of worms. But in a separate thread we could maybe explore the separate can of worms as hey, generally.
+Lesk, Mark 9 minutes 3 seconds
+Can we do we want to support these kinds of interactions, you know, running it ahead this way?
+
+Carroll, Richard
+9 minutes 11 seconds9:11
+Carroll, Richard 9 minutes 11 seconds
+OK.
+
+Lesk, Mark
+9 minutes 11 seconds9:11
+Lesk, Mark 9 minutes 11 seconds
+Yeah. OK. So I I think Phil, Cliff, we probably just should, you know, do a quick, we don't have to do exhaustive thing here, but we should just write it up like an ADR and then we could bring that and have a convo with Morgan and just settle on how to how to.
+
+Kowack-Murthy, Barbara
+9 minutes 14 seconds9:14
+Kowack-Murthy, Barbara 9 minutes 14 seconds
+Good.
+
+Lesk, Mark
+9 minutes 28 seconds9:28
+Lesk, Mark 9 minutes 28 seconds
+Facilitate the right things getting provisioned in Power and Power Automate for for for this and getting the right workspace set up.
+
+Kowack-Murthy, Barbara
+9 minutes 37 seconds9:37
+Kowack-Murthy, Barbara 9 minutes 37 seconds
+That was an ADR.
+
+Lesk, Mark
+9 minutes 39 seconds9:39
+Lesk, Mark 9 minutes 39 seconds
+Just the architectural decision record, just like a little summary of like meeting minutes effectively. Hey, this is what we talked about. These are the things. This is kind of what we sell them on as an initial approach. And then that that way Morgan will have what he needs and we'll have a record of what we what we did.
+
+Murphy, Phillip
+9 minutes 39 seconds9:39
+Murphy, Phillip 9 minutes 39 seconds
+And architectural decision records.
+
+Kowack-Murthy, Barbara
+9 minutes 45 seconds9:45
+Kowack-Murthy, Barbara 9 minutes 45 seconds
+Oh, OK, gotcha.
+
+Murphy, Phillip
+9 minutes 47 seconds9:47
+Murphy, Phillip 9 minutes 47 seconds
+Here's the pros, cons. Yep. Mm-hmm.
+
+Kowack-Murthy, Barbara
+9 minutes 56 seconds9:56
+Kowack-Murthy, Barbara 9 minutes 56 seconds
+Gotcha. OK.
+
+Lesk, Mark
+9 minutes 58 seconds9:58
+Lesk, Mark 9 minutes 58 seconds
+OK.
+
+Kowack-Murthy, Barbara
+9 minutes 59 seconds9:59
+Kowack-Murthy, Barbara 9 minutes 59 seconds
+All right, so do you need anything more from us at this point?
+
+Lesk, Mark
+10 minutes 2 seconds10:02
+Lesk, Mark 10 minutes 2 seconds
+I don't think so.
+
+Murphy, Phillip
+10 minutes 3 seconds10:03
+Murphy, Phillip 10 minutes 3 seconds
+Right now we'll set something up. What's the time horizons? A week from now, two weeks from now?
+
+Lesk, Mark
+10 minutes 10 seconds10:10
+Lesk, Mark 10 minutes 10 seconds
+Yeah, I'm.
+10:12
+10 minutes 12 seconds
+That's fine.
+
+Kowack-Murthy, Barbara
+10 minutes 13 seconds10:13
+Kowack-Murthy, Barbara 10 minutes 13 seconds
+Yeah, that'd be great.
+
+Murphy, Phillip
+10 minutes 14 seconds10:14
+Murphy, Phillip 10 minutes 14 seconds
+OK, so we'll have two weeks from now.
+
+Lesk, Mark
+10 minutes 15 seconds10:15
+Lesk, Mark 10 minutes 15 seconds
+Yes, I think we write something up sometime between now and next week and then we can have a convo with Morgan and I I don't, I don't expect any any significant challenges from that point.
+
+Murphy, Phillip
+10 minutes 21 seconds10:21
+Murphy, Phillip 10 minutes 21 seconds
+OK.
+Murphy, Phillip 10 minutes 26 seconds
+OK.
+
+Kowack-Murthy, Barbara
+10 minutes 26 seconds10:26
+Kowack-Murthy, Barbara 10 minutes 26 seconds
+Alright, great. Awesome.
+
+Murphy, Phillip
+10 minutes 32 seconds10:32
+Murphy, Phillip 10 minutes 32 seconds
+All right. Thanks.
+
+Carroll, Richard
+10 minutes 32 seconds10:32
+Carroll, Richard 10 minutes 32 seconds
+OK, right.
+
+Murphy, Phillip
+10 minutes 35 seconds10:35
+Murphy, Phillip 10 minutes 35 seconds
+Yeah, I.
+
+Carroll, Richard
+10 minutes 39 seconds10:39
+Carroll, Richard 10 minutes 39 seconds
+Alright.
+
+Gray, Cliff
+10 minutes 39 seconds10:39
+Gray, Cliff 10 minutes 39 seconds
+Bye, everyone.

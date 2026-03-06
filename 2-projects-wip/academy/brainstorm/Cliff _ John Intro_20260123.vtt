@@ -1,0 +1,1515 @@
+WEBVTT
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/6-0
+00:00:03.592 --> 00:00:10.594
+<v Tang, John>Able to access the actual facilities.
+During a recent legal review,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/6-1
+00:00:10.594 --> 00:00:18.112
+<v Tang, John>we found that some of the language in
+Matterport's terms and conditions.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/8-0
+00:00:18.152 --> 00:00:24.128
+<v Tang, John>Aren't very they're not very good.
+So legal's suggestion is that we we no</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/8-1
+00:00:24.128 --> 00:00:30.752
+<v Tang, John>longer use Matterport and so that's where
+we are now. We're trying to identify a.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/9-0
+00:00:32.592 --> 00:00:38.044
+<v Tang, John>Replacement for Matterport and we've
+started to kick off the information,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/9-1
+00:00:38.044 --> 00:00:42.392
+<v Tang, John>the InfoSec reviews.
+We've sent out at least one NDA to a.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/10-0
+00:00:43.512 --> 00:00:48.472
+<v Tang, John>Replacement vendor and we've also started
+to research.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/11-0
+00:00:49.672 --> 00:00:54.604
+<v Tang, John>Some of the other options we have out
+there, so that's where I I was.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/11-1
+00:00:54.604 --> 00:00:57.352
+<v Tang, John>I reached out to tomorrow to see if um.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/12-0
+00:00:58.232 --> 00:01:03.116
+<v Tang, John>From a he can help from a solution
+architecture perspective to help us</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/12-1
+00:01:03.116 --> 00:01:05.112
+<v Tang, John>review some of the different.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/13-0
+00:01:06.072 --> 00:01:13.619
+<v Tang, John>Vendor options we had and um provide some
+guidance on what would be the best fit</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/13-1
+00:01:13.619 --> 00:01:14.272
+<v Tang, John>for FM.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/15-0
+00:01:15.752 --> 00:01:20.345
+<v Tang, John>So I can stop there to see if you had any
+questions on the Matterport one</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/14-0
+00:01:16.072 --> 00:01:16.232
+<v Gray, Cliff>OK.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/15-1
+00:01:20.345 --> 00:01:21.152
+<v Tang, John>specifically.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/16-0
+00:01:22.312 --> 00:01:25.500
+<v Gray, Cliff>Yeah,
+so right now you have a one NDA out with</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/16-1
+00:01:25.500 --> 00:01:29.164
+<v Gray, Cliff>one vendor.
+Have you selected like a group of vendors</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/16-2
+00:01:29.164 --> 00:01:34.592
+<v Gray, Cliff>that you wanna meet with in a review and
+and if so, about how many do you have?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/17-0
+00:01:35.832 --> 00:01:38.752
+<v Tang, John>Yeah.
+So I I believe this space is pretty</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/17-1
+00:01:38.752 --> 00:01:42.020
+<v Tang, John>limited.
+So there is a short list of I believe</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/17-2
+00:01:42.020 --> 00:01:47.651
+<v Tang, John>four different vendors and my hope is to
+maybe cut that down to maybe, you know,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/17-3
+00:01:47.651 --> 00:01:49.112
+<v Tang, John>two or three at most.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/18-0
+00:01:54.672 --> 00:02:01.586
+<v Gray, Cliff>And this E 57 format,
+I take it that's some type of data format</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/18-1
+00:02:01.586 --> 00:02:04.072
+<v Gray, Cliff>used within Matterport.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/19-0
+00:02:05.192 --> 00:02:08.604
+<v Tang, John>It it is.
+And so maybe to give some additional</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/19-1
+00:02:08.604 --> 00:02:13.323
+<v Tang, John>background on Matterport,
+this is a tool that had been used for,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/19-2
+00:02:13.323 --> 00:02:17.462
+<v Tang, John>I think for at least four or five years
+by the business.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/19-3
+00:02:17.462 --> 00:02:23.270
+<v Tang, John>It was being expensed via corporate card.
+So that's where it kind of was flying</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/19-4
+00:02:23.270 --> 00:02:24.432
+<v Tang, John>under the radar.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/21-0
+00:02:24.872 --> 00:02:29.429
+<v Tang, John>Hadn't gone through like InfoSec or
+wasn't added to any of our solution</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/21-1
+00:02:29.429 --> 00:02:32.657
+<v Tang, John>inventory,
+but because of how long it's been used,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/20-0
+00:02:31.512 --> 00:02:31.792
+<v Gray, Cliff>Mm.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/21-2
+00:02:32.657 --> 00:02:37.404
+<v Tang, John>I think they mainly started using it
+during during COVID because you know,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/21-3
+00:02:37.404 --> 00:02:41.392
+<v Tang, John>folks weren't getting access to the
+actual physical buildings.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/22-0
+00:02:41.592 --> 00:02:48.144
+<v Tang, John>They've kind of accumulated about 150
+workspaces where you know we have video</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/22-1
+00:02:48.144 --> 00:02:54.696
+<v Tang, John>of of those spaces and that E 57 format
+is just this is just kind of based on</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/22-2
+00:02:54.696 --> 00:02:58.392
+<v Tang, John>some like like preliminary Google
+searches.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/23-0
+00:02:59.432 --> 00:03:04.122
+<v Tang, John>It's it allows you to export that kind of
+3D rendering and import.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/23-1
+00:03:04.122 --> 00:03:09.722
+<v Tang, John>The hope is we can import that into the
+you know our replacement application so</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/23-2
+00:03:09.722 --> 00:03:15.182
+<v Tang, John>that you know in some cases we're unable
+to you know even access the physical</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/23-3
+00:03:15.182 --> 00:03:16.232
+<v Tang, John>locations that.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/24-0
+00:03:17.112 --> 00:03:21.708
+<v Tang, John>We've recorded in the past,
+so we wouldn't even be able to replicate</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/24-1
+00:03:21.708 --> 00:03:26.837
+<v Tang, John>those if we needed to do it manually.
+So the hope is we'd be able to recover</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/24-2
+00:03:26.837 --> 00:03:31.100
+<v Tang, John>those by exporting the E 57 and importing
+into the replacement.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/24-3
+00:03:31.100 --> 00:03:33.032
+<v Tang, John>So I believe that would be a.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/25-0
+00:03:33.272 --> 00:03:39.151
+<v Tang, John>One of the high one of the main
+requirements that any replacement would</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/25-1
+00:03:39.151 --> 00:03:43.152
+<v Tang, John>be able to support that E 57 format file
+format.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/26-0
+00:03:43.712 --> 00:03:49.512
+<v Gray, Cliff>OK. And is there information today within?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/29-0
+00:03:51.472 --> 00:03:57.374
+<v Gray, Cliff>Matterport that has like user information
+and like certain people have taken,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/27-0
+00:03:53.272 --> 00:03:53.472
+<v Tang, John>Yeah.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/29-1
+00:03:57.374 --> 00:04:03.049
+<v Gray, Cliff>you know, for lack of a better term,
+certain training or courses and maybe</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/29-2
+00:04:03.049 --> 00:04:08.952
+<v Gray, Cliff>there's assessments and there's that type
+of information need to flow mapped.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/30-0
+00:04:09.312 --> 00:04:10.552
+<v Gray, Cliff>To particular users.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/31-0
+00:04:12.152 --> 00:04:13.992
+<v Gray, Cliff>For the new system.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/34-0
+00:04:13.272 --> 00:04:17.104
+<v Tang, John>No.
+So there there's no there from from my</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/34-1
+00:04:17.104 --> 00:04:23.701
+<v Tang, John>understanding we only use Matterport for
+the kind of the 3D walkthroughs,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/34-2
+00:04:23.701 --> 00:04:29.494
+<v Tang, John>any course completion,
+any of that data is being captured in our</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/32-0
+00:04:25.152 --> 00:04:25.592
+<v Gray, Cliff>Mm.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/34-3
+00:04:29.494 --> 00:04:30.832
+<v Tang, John>LMS and in LCO.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/33-0
+00:04:32.312 --> 00:04:32.432
+<v Gray, Cliff>OK.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/35-0
+00:04:33.192 --> 00:04:37.547
+<v Tang, John>So we're just using the kind of the the
+outputs and the the the spaces that are</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/35-1
+00:04:37.547 --> 00:04:41.032
+<v Tang, John>created in Matterport and embedding those
+into our curriculums.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/36-0
+00:04:41.872 --> 00:04:47.139
+<v Gray, Cliff>Hmm.
+And what's the what's the RMS that FM</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/36-1
+00:04:47.139 --> 00:04:47.752
+<v Gray, Cliff>uses?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/37-0
+00:04:47.832 --> 00:04:50.952
+<v Tang, John>We use uh, so currently we use Saba.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/38-0
+00:04:51.592 --> 00:04:52.392
+<v Gray, Cliff>Hmm. OK.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/39-0
+00:04:53.352 --> 00:04:59.914
+<v Tang, John>But it is being sunset at the end of 27,
+so we're also in the process of beginning</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/39-1
+00:04:59.914 --> 00:05:04.104
+<v Tang, John>to plan for a migration to Cornerstone's
+latest LMS,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/39-2
+00:05:04.104 --> 00:05:06.872
+<v Tang, John>which is Galaxy Cornerstone Galaxy.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/40-0
+00:05:09.432 --> 00:05:09.472
+<v Gray, Cliff>Uh.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/41-0
+00:05:17.712 --> 00:05:23.515
+<v Gray, Cliff>And what do you have a rough timeline as
+to when you want to complete the</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/41-1
+00:05:23.515 --> 00:05:25.712
+<v Gray, Cliff>migration to the new system?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/42-0
+00:05:28.192 --> 00:05:31.241
+<v Tang, John>Uh,
+the new system for our LMS or for the</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/42-1
+00:05:31.241 --> 00:05:32.912
+<v Tang, John>Matterport replacement?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/43-0
+00:05:31.432 --> 00:05:34.272
+<v Gray, Cliff>Oh, sorry, the replacement for Matterport.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/44-0
+00:05:36.752 --> 00:05:41.384
+<v Tang, John>Yes, the replacement would,
+I believe we have a deadline or we're</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/44-1
+00:05:41.384 --> 00:05:46.928
+<v Tang, John>hoping to get it done by June because
+that's when the we have a next cohort of</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/44-2
+00:05:46.928 --> 00:05:51.912
+<v Tang, John>consultant in the consultant engineering
+program where a lot of these.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/45-0
+00:05:51.992 --> 00:05:55.112
+<v Tang, John>Matterports are being used in that
+curriculum.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/46-0
+00:05:56.392 --> 00:05:56.712
+<v Gray, Cliff>OK.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/47-0
+00:06:02.872 --> 00:06:07.652
+<v Gray, Cliff>All right. Yeah, I think, uh,
+I think I have a good understanding now</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/47-1
+00:06:07.652 --> 00:06:08.472
+<v Gray, Cliff>of that one.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/48-0
+00:06:09.312 --> 00:06:13.541
+<v Tang, John>OK.
+And we did get a list of requirements</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/48-1
+00:06:13.541 --> 00:06:19.684
+<v Tang, John>from the the business,
+so I I could forward that over to you</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/48-2
+00:06:19.684 --> 00:06:20.792
+<v Tang, John>along with.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/49-0
+00:06:22.672 --> 00:06:28.275
+<v Tang, John>The other or I think we have, yeah,
+we have 4 total vendors that we're</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/49-1
+00:06:28.275 --> 00:06:33.169
+<v Tang, John>potentially looking at.
+I did have Mike over at InfoSec run a</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/49-2
+00:06:33.169 --> 00:06:37.352
+<v Tang, John>risk recon on those and I also put in a
+request for.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/51-0
+00:06:37.872 --> 00:06:41.849
+<v Tang, John>Don over at procurement to run a Pure IQ
+review on those.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/51-1
+00:06:41.849 --> 00:06:47.129
+<v Tang, John>So just to see if there were any red
+flags on like the on the companies that</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/51-2
+00:06:47.129 --> 00:06:51.449
+<v Tang, John>own the those softwares.
+But and believe I got those back this</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/51-3
+00:06:51.449 --> 00:06:55.152
+<v Tang, John>morning so I could forward those over to
+you as well.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/50-0
+00:06:55.592 --> 00:06:55.952
+<v Gray, Cliff>OK.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/52-0
+00:07:00.792 --> 00:07:04.032
+<v Tang, John>OK, uh, alright,
+so let me jump to the next one.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/53-0
+00:07:12.552 --> 00:07:17.279
+<v Tang, John>Um.
+So the next one I think would be bullet</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/53-1
+00:07:17.279 --> 00:07:18.032
+<v Tang, John>#2. Um.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/54-0
+00:07:20.192 --> 00:07:24.224
+<v Tang, John>Steve McGrath over from Infosec and Mary
+Someraro,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/54-1
+00:07:24.224 --> 00:07:30.629
+<v Tang, John>they've been looking at and I I'm sure
+you've probably seen some of the training</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/54-2
+00:07:30.629 --> 00:07:37.192
+<v Tang, John>that's been sent over for like security
+snippets that that get sent out quarterly.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/55-0
+00:07:37.872 --> 00:07:41.342
+<v Tang, John>So we've been,
+we work pretty closely with Steve and his</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/55-1
+00:07:41.342 --> 00:07:43.352
+<v Tang, John>team to put out or build out. Um.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/56-0
+00:07:44.232 --> 00:07:49.716
+<v Tang, John>Some InfoSec trainings.
+They've reached out to us to see if we</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/56-1
+00:07:49.716 --> 00:07:56.768
+<v Tang, John>could integrate with this LMS provider
+that specializes in information security.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/56-2
+00:07:56.768 --> 00:07:59.032
+<v Tang, John>This is called Proofpoint.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/57-0
+00:08:00.912 --> 00:08:06.893
+<v Tang, John>And they're looking to see if there is a
+way for us to leverage some sort of</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/57-1
+00:08:06.893 --> 00:08:13.030
+<v Tang, John>integration where users can launch some
+of the Proofpoint courses from our LMS</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/57-2
+00:08:13.030 --> 00:08:15.672
+<v Tang, John>directly and then bring them into.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/58-0
+00:08:16.272 --> 00:08:22.544
+<v Tang, John>The Proofpoint app because how it
+currently works is Steve will go through</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/58-1
+00:08:22.544 --> 00:08:27.061
+<v Tang, John>Proofpoint,
+which is our our we'll consider them like</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/58-2
+00:08:27.061 --> 00:08:31.912
+<v Tang, John>a content vendor and he'll curate kind of
+courses around.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/59-0
+00:08:32.912 --> 00:08:33.072
+<v Tang, John>Um.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/60-0
+00:08:34.552 --> 00:08:39.342
+<v Tang, John>Any different security themes that he
+feels are relevant to FM,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/60-1
+00:08:39.342 --> 00:08:45.554
+<v Tang, John>and then he'll build those out in a SCORM
+package that gets uploaded into the LMS.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/60-2
+00:08:45.554 --> 00:08:51.916
+<v Tang, John>But because of kind of that whole process,
+it's a bit of a manual process for him to</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/60-3
+00:08:51.916 --> 00:08:54.312
+<v Tang, John>go through and then upload into.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/61-0
+00:08:54.312 --> 00:09:01.836
+<v Tang, John>LMS it doesn't allow us to utilize some
+of the kind of some of the key</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/61-1
+00:09:01.836 --> 00:09:08.832
+<v Tang, John>functionality of that Proofpoint LMS
+where for instance if maybe.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/62-0
+00:09:09.512 --> 00:09:14.995
+<v Tang, John>Let's say I I I took a fishing course
+that that recently got sent out and maybe</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/62-1
+00:09:14.995 --> 00:09:20.410
+<v Tang, John>I, you know, I I score poorly on it.
+Proofpoint has this some AI built into it</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/62-2
+00:09:20.410 --> 00:09:24.112
+<v Tang, John>that will kind of automatically suggest
+new training.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/63-0
+00:09:24.672 --> 00:09:30.937
+<v Tang, John>Based off of how I do on a course per se,
+and then from there it'll begin to kind</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/63-1
+00:09:30.937 --> 00:09:34.299
+<v Tang, John>of build out what areas I could improve
+on.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/63-2
+00:09:34.299 --> 00:09:40.565
+<v Tang, John>So that's kind of the the use case that
+they were looking to leverage to get some</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/63-3
+00:09:40.565 --> 00:09:42.552
+<v Tang, John>a little bit more of that.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/64-0
+00:09:44.112 --> 00:09:44.512
+<v Tang, John>Um.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/65-0
+00:09:46.952 --> 00:09:49.032
+<v Tang, John>Uh, platform driven.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/67-0
+00:09:49.992 --> 00:09:56.344
+<v Tang, John>And of learning versus having, you know,
+Steve or someone go through and manually</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/66-0
+00:09:51.552 --> 00:09:52.072
+<v Gray, Cliff>Mhm.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/67-1
+00:09:56.344 --> 00:09:57.352
+<v Tang, John>curate those.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/68-0
+00:09:59.432 --> 00:10:05.611
+<v Tang, John>I'm not sure how much of of an.
+I'm not sure how much of that we can get</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/68-1
+00:10:05.611 --> 00:10:11.622
+<v Tang, John>through like an API integration,
+but given kind of the lack of kind of</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/68-2
+00:10:11.622 --> 00:10:16.701
+<v Tang, John>skill set on our team,
+we we didn't really have anyone that</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/68-3
+00:10:16.701 --> 00:10:19.072
+<v Tang, John>could review their REST API.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/69-0
+00:10:19.112 --> 00:10:25.371
+<v Tang, John>API documentation to see if that is
+something that we'd be able to to achieve</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/69-1
+00:10:25.371 --> 00:10:31.309
+<v Tang, John>with the integration with Saba.
+And I mean from from a product standpoint</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/69-2
+00:10:31.309 --> 00:10:32.272
+<v Tang, John>I would say.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/71-0
+00:10:33.432 --> 00:10:37.178
+<v Tang, John>Um,
+I I don't know if it necessarily makes</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/71-1
+00:10:37.178 --> 00:10:42.232
+<v Tang, John>sense to have two different LMSS.
+It kind of makes it um.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/72-0
+00:10:43.992 --> 00:10:49.284
+<v Tang, John>I don't know if the user it's not the the
+best user experience to kind of launch</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/72-1
+00:10:49.284 --> 00:10:54.316
+<v Tang, John>through Saba and then have to jump into
+Proofpoint and then have kind of a a</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/72-2
+00:10:54.316 --> 00:10:59.152
+<v Tang, John>different LMS experience over there.
+So the hope is that we'd be able to.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/73-0
+00:11:00.992 --> 00:11:04.424
+<v Tang, John>Use Saba as the launching point and build
+out or curate.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/73-1
+00:11:04.424 --> 00:11:09.363
+<v Tang, John>You know those curriculums within our own
+LMS instead of kind of having to use it</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/73-2
+00:11:09.363 --> 00:11:11.712
+<v Tang, John>go back and forth, if that makes sense.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/75-0
+00:11:13.992 --> 00:11:18.302
+<v Gray, Cliff>I believe so.
+So what you're essentially looking for is</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/75-1
+00:11:18.302 --> 00:11:22.920
+<v Gray, Cliff>staying within Saba,
+but being able to in real time pull in</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/75-2
+00:11:22.920 --> 00:11:29.078
+<v Gray, Cliff>information training from Proofpoint and
+still be able to leverage some of this</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/75-3
+00:11:29.078 --> 00:11:33.312
+<v Gray, Cliff>functionality.
+You mentioned a Proofpoint such as the.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/78-0
+00:11:33.512 --> 00:11:38.299
+<v Gray, Cliff>The A I kind of guidance or assistance
+based on how they do on assessments,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/78-1
+00:11:38.299 --> 00:11:41.764
+<v Gray, Cliff>that sort of thing,
+but all that occurring within Saba</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/78-2
+00:11:41.764 --> 00:11:46.552
+<v Gray, Cliff>without that the manual process Steve is
+doing today. Is that a fair recap?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/77-0
+00:11:46.952 --> 00:11:48.192
+<v Tang, John>Yes, yeah.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/79-0
+00:11:48.352 --> 00:11:55.514
+<v Gray, Cliff>OK. And you think potentially one Ave.
+to achieve that would be group points</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/79-1
+00:11:55.514 --> 00:11:56.352
+<v Gray, Cliff>REST API?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/81-0
+00:11:57.352 --> 00:12:02.292
+<v Tang, John>I'm not sure when we did.
+When we reached out to Proofpoint for</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/80-0
+00:11:59.712 --> 00:12:00.192
+<v Gray, Cliff>Mhm.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/81-1
+00:12:02.292 --> 00:12:07.232
+<v Tang, John>initial conversation,
+they they they responded back with their.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/82-0
+00:12:09.192 --> 00:12:14.367
+<v Tang, John>I think it was like their trust center or
+something that that had information on</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/82-1
+00:12:14.367 --> 00:12:19.159
+<v Tang, John>how their you know their APIs could
+connect so but without without knowing</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/82-2
+00:12:19.159 --> 00:12:24.463
+<v Tang, John>enough of the technicals we were able to
+confirm or deny if that that would be you</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/82-3
+00:12:24.463 --> 00:12:28.872
+<v Tang, John>know appropriate for our integration.
+So that's where I was looking.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/83-0
+00:12:28.952 --> 00:12:34.079
+<v Tang, John>Looking for some assistance to to see if
+that is something that we could even use</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/83-1
+00:12:34.079 --> 00:12:35.392
+<v Tang, John>with our current LMS.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/84-0
+00:12:36.912 --> 00:12:38.032
+<v Gray, Cliff>OK, got it.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/85-0
+00:12:39.592 --> 00:12:41.592
+<v Gray, Cliff>And are there? I take it there's some.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/86-0
+00:12:42.712 --> 00:12:47.159
+<v Gray, Cliff>Like for for Saba,
+do we have any folks at FM who kind of</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/86-1
+00:12:47.159 --> 00:12:51.837
+<v Gray, Cliff>serve as, you know,
+the the technical subject matter experts</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/86-2
+00:12:51.837 --> 00:12:57.127
+<v Gray, Cliff>or maybe even they're doing the
+configuration setup or do we kind of</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/86-3
+00:12:57.127 --> 00:13:01.192
+<v Gray, Cliff>outsource all that to Saba? How,
+how does that work?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/87-0
+00:13:02.432 --> 00:13:06.284
+<v Tang, John>Yeah.
+So we do have a team that supports Saba.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/87-1
+00:13:06.284 --> 00:13:10.628
+<v Tang, John>We have one senior configuration analyst
+on our end.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/87-2
+00:13:10.628 --> 00:13:17.432
+<v Tang, John>So he does have full admin rights to Saba.
+So any configurations, basic, you know.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/88-0
+00:13:18.912 --> 00:13:25.508
+<v Tang, John>Any basic integrations where for instance
+like SSO integrations where we we need to</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/88-1
+00:13:25.508 --> 00:13:31.712
+<v Tang, John>update keys or make some connections he
+he has, he has the ability to do that.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/88-2
+00:13:31.712 --> 00:13:38.152
+<v Tang, John>But when it comes to like the REST APIs,
+that's where we're kind of lacking that.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/89-0
+00:13:38.392 --> 00:13:42.120
+<v Tang, John>Technical knowledge.
+So I think working with so Jim Gauld,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/89-1
+00:13:42.120 --> 00:13:47.302
+<v Tang, John>he he is our senior configuration analyst.
+He'd be able to get us most of the way</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/89-2
+00:13:47.302 --> 00:13:50.336
+<v Tang, John>there.
+But when it comes to I think the kind of</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/89-3
+00:13:50.336 --> 00:13:55.392
+<v Tang, John>the more technical stuff in terms of how
+to connect with the the different LMS.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/90-0
+00:13:55.592 --> 00:13:58.552
+<v Tang, John>Um,
+that's where we're looking for some help.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/91-0
+00:13:58.992 --> 00:14:03.849
+<v Gray, Cliff>OK, got it. And do you know,
+have we done anything like this in the</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/91-1
+00:14:03.849 --> 00:14:09.634
+<v Gray, Cliff>past with Saba in terms of interfacing
+with another external learning system and</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/91-2
+00:14:09.634 --> 00:14:11.992
+<v Gray, Cliff>and pulling in content like this?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/92-0
+00:14:13.032 --> 00:14:18.015
+<v Tang, John>So if I were to compare it,
+I believe it would be the experience</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/92-1
+00:14:18.015 --> 00:14:23.688
+<v Tang, John>would be similar to what we have with
+like a LinkedIn Learning right now.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/92-2
+00:14:23.688 --> 00:14:29.362
+<v Tang, John>So I know it's a little bit different
+because LinkedIn Learning is mainly</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/92-3
+00:14:29.362 --> 00:14:31.432
+<v Tang, John>content, a content library.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/93-0
+00:14:31.832 --> 00:14:36.691
+<v Tang, John>But the way and and Jim can probably
+better explain this,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/93-1
+00:14:36.691 --> 00:14:43.394
+<v Tang, John>but the way we're we're integrated with
+LinkedIn Learning is it's kind of a two</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/93-2
+00:14:43.394 --> 00:14:47.752
+<v Tang, John>way it's a bidirectional and a feed where
+we could.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/94-0
+00:14:47.752 --> 00:14:52.821
+<v Tang, John>Import or we've imported LinkedIn
+Learning's content library into our LMS</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/94-1
+00:14:52.821 --> 00:14:57.069
+<v Tang, John>and we can take those courses by by
+searching within our LMS,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/94-2
+00:14:57.069 --> 00:15:00.152
+<v Tang, John>but then when we actually launch the
+course.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/95-0
+00:15:02.952 --> 00:15:06.600
+<v Tang, John>You know, it looks like it's, you know,
+in line in our player,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/95-1
+00:15:06.600 --> 00:15:09.958
+<v Tang, John>but it's actually launching the LinkedIn
+Learning course.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/95-2
+00:15:09.958 --> 00:15:14.533
+<v Tang, John>And I I believe that's the like the I
+think deployed SCORM is what we call it,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/95-3
+00:15:14.533 --> 00:15:17.949
+<v Tang, John>where you know the the content lives in
+LinkedIn Learning,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/95-4
+00:15:17.949 --> 00:15:22.872
+<v Tang, John>but then it's hosted on LinkedIn Learning,
+but then we we can deploy it here on our.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/96-0
+00:15:22.952 --> 00:15:26.168
+<v Tang, John>LMS and when we make those completions
+here,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/96-1
+00:15:26.168 --> 00:15:30.456
+<v Tang, John>it'll send the completion record back to
+LinkedIn Learning.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/96-2
+00:15:30.456 --> 00:15:36.245
+<v Tang, John>But we also have the ability to launch
+LinkedIn Learning directly and because of</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/96-3
+00:15:36.245 --> 00:15:38.032
+<v Tang, John>that integration we have.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/97-0
+00:15:38.632 --> 00:15:44.073
+<v Tang, John>If we take any courses natively within
+LinkedIn Learning, those will also update.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/97-1
+00:15:44.073 --> 00:15:49.382
+<v Tang, John>It'll send AI believe it's integrated
+through a nightly job that it'll send any</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/97-2
+00:15:49.382 --> 00:15:53.232
+<v Tang, John>completions back so that those
+completions that are done.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/98-0
+00:15:53.832 --> 00:15:59.222
+<v Tang, John>Natively and LinkedIn Learning will also
+update in our LCO transcript or LMS</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/98-1
+00:15:59.222 --> 00:15:59.992
+<v Tang, John>transcript.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/99-0
+00:16:03.152 --> 00:16:03.832
+<v Gray, Cliff>OK, got it.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/100-0
+00:16:05.832 --> 00:16:12.641
+<v Tang, John>So I I believe that may get us to where
+Steve is looking to get those like proof</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/100-1
+00:16:12.641 --> 00:16:18.526
+<v Tang, John>point enhanced capabilities.
+I know it's it's not ideal to have users</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/100-2
+00:16:18.526 --> 00:16:20.712
+<v Tang, John>in two different LMSS but.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/101-0
+00:16:20.952 --> 00:16:26.825
+<v Tang, John>If we're getting that two way,
+that two way fee between the two systems,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/101-1
+00:16:26.825 --> 00:16:33.422
+<v Tang, John>then that that that may get us kind of at
+least most of the way there in terms of</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/101-2
+00:16:33.422 --> 00:16:35.192
+<v Tang, John>being able to utilize.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/102-0
+00:16:37.272 --> 00:16:40.397
+<v Tang, John>The the function capabilities in proof
+point,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/102-1
+00:16:40.397 --> 00:16:45.764
+<v Tang, John>but then also ensuring that we get all
+the transcripts and records back in our</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/102-2
+00:16:45.764 --> 00:16:46.512
+<v Tang, John>in our LMS.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/103-0
+00:16:50.232 --> 00:16:50.872
+<v Gray, Cliff>Makes sense.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/104-0
+00:16:55.152 --> 00:17:00.688
+<v Tang, John>And then I know it's not on the list I
+sent you,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/104-1
+00:17:00.688 --> 00:17:10.067
+<v Tang, John>but Jonathan Davis also reached out to us
+with a very similar request earlier this</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/104-2
+00:17:10.067 --> 00:17:10.632
+<v Tang, John>week.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/105-0
+00:17:10.632 --> 00:17:14.995
+<v Tang, John>So it sounds like it's almost the same
+thing.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/105-1
+00:17:14.995 --> 00:17:22.014
+<v Tang, John>He's looking to see if we could integrate
+our LMS with this vendor called</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/105-2
+00:17:22.014 --> 00:17:26.283
+<v Tang, John>Brainstorm.
+So and I think that's mainly for</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/105-3
+00:17:26.283 --> 00:17:27.232
+<v Tang, John>Microsoft.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/106-0
+00:17:27.832 --> 00:17:32.353
+<v Tang, John>Training content.
+They've also provided us with some API</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/106-1
+00:17:32.353 --> 00:17:38.620
+<v Tang, John>documentation as well to see if we could
+review that to integrate with and how</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/106-2
+00:17:38.620 --> 00:17:41.952
+<v Tang, John>that would integrate with our current LMS.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/107-0
+00:17:44.272 --> 00:17:45.712
+<v Gray, Cliff>Alright.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/108-0
+00:17:48.512 --> 00:17:54.472
+<v Tang, John>OK. And then the last one, um, probably.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/109-0
+00:17:56.472 --> 00:18:04.805
+<v Tang, John>It's the lowest priority because we do
+have some some workarounds,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/109-1
+00:18:04.805 --> 00:18:13.512
+<v Tang, John>but we have so this one is around our LMS
+to degreed integration and.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/110-0
+00:18:13.992 --> 00:18:19.145
+<v Tang, John>Maybe it might be better if I just bring
+up a lucid chart to kind of walk you</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/110-1
+00:18:19.145 --> 00:18:19.872
+<v Tang, John>through it.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/111-0
+00:18:21.152 --> 00:18:24.192
+<v Tang, John>Uh, to give you some background. Um.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/112-0
+00:18:27.752 --> 00:18:34.065
+<v Tang, John>When we when we first implemented Degreed,
+we were kind of tasked with trying to</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/112-1
+00:18:34.065 --> 00:18:40.066
+<v Tang, John>solve a problem of how we could get
+required learning assigned learning over</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/112-2
+00:18:40.066 --> 00:18:42.872
+<v Tang, John>to Degreed and so we built out this.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/113-0
+00:18:42.952 --> 00:18:49.656
+<v Tang, John>Integration where I was hoping to maybe
+get it reviewed by Tamur because it had</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/113-1
+00:18:49.656 --> 00:18:56.361
+<v Tang, John>been a couple years now and since we've
+been using the integration been running</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/113-2
+00:18:56.361 --> 00:18:58.792
+<v Tang, John>into a fair amount of issues.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/114-0
+00:18:59.112 --> 00:19:00.832
+<v Tang, John>Um, over the past year or so.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/119-0
+00:19:00.912 --> 00:19:01.032
+<v Tang, John>Cell.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/121-0
+00:19:03.672 --> 00:19:07.524
+<v Tang, John>All right,
+so I just pulled up a lucid chart that I</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/121-1
+00:19:07.524 --> 00:19:11.302
+<v Tang, John>worked on and I'll try to walk through it
+quickly.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/121-2
+00:19:11.302 --> 00:19:16.933
+<v Tang, John>I know we only have 5 minutes left,
+but basically Saba RLMS we need to send</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/121-3
+00:19:16.933 --> 00:19:19.897
+<v Tang, John>out.
+We're sending out three flat files</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/121-4
+00:19:19.897 --> 00:19:20.712
+<v Tang, John>because of.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/122-0
+00:19:21.872 --> 00:19:26.156
+<v Tang, John>There is this kind of limitation within
+Degreed.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/122-1
+00:19:26.156 --> 00:19:29.392
+<v Tang, John>So Degreed is our LXP platform where.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/127-0
+00:19:31.752 --> 00:19:36.963
+<v Tang, John>We are sending completion files on a
+daily basis to Degreed,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/127-1
+00:19:36.963 --> 00:19:44.054
+<v Tang, John>but because of how Degreed or because of
+how Degreed receives content and it is an</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/127-2
+00:19:44.054 --> 00:19:47.472
+<v Tang, John>LXP, not a learning management platform.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/131-0
+00:19:47.992 --> 00:19:52.858
+<v Tang, John>When users have to take recurring
+learning. So for instance,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/131-1
+00:19:52.858 --> 00:19:58.443
+<v Tang, John>if we have a annual workplace harassment
+course that we need to take,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/131-2
+00:19:58.443 --> 00:20:02.832
+<v Tang, John>the way we manage those at FM is we'll
+just set those.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/135-0
+00:20:03.392 --> 00:20:07.161
+<v Tang, John>Courses up on a recurring cycle.
+For instance,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/135-1
+00:20:07.161 --> 00:20:13.176
+<v Tang, John>if if we need to take it yearly,
+it'll expire and then be re-added to your</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/135-2
+00:20:13.176 --> 00:20:19.272
+<v Tang, John>transcript to to be taken because Degreed
+sees that as the same content ID.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/140-0
+00:20:19.352 --> 00:20:24.022
+<v Tang, John>When that gets sent over to degree,
+it just shows it as complete a completed</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/140-1
+00:20:24.022 --> 00:20:28.693
+<v Tang, John>record because you've completed it at
+some point and it doesn't kind of have</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/140-2
+00:20:28.693 --> 00:20:33.424
+<v Tang, John>that logic to say that it needs to be
+retaken year over year and from from my</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/140-3
+00:20:33.424 --> 00:20:34.152
+<v Tang, John>perspective.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/143-0
+00:20:34.192 --> 00:20:40.366
+<v Tang, John>And from from my perspective,
+I don't think that you know it's it's</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/143-1
+00:20:40.366 --> 00:20:45.450
+<v Tang, John>working as expected because degreed is an
+LXP platform,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/143-2
+00:20:45.450 --> 00:20:48.992
+<v Tang, John>but to solve a problem of having users.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/149-0
+00:20:49.632 --> 00:20:56.758
+<v Tang, John>Use Degreed as their their their learning,
+their front door to learning and we added</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/149-1
+00:20:56.758 --> 00:21:03.214
+<v Tang, John>in kind of this integration where we
+would send required learning files from</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/149-2
+00:21:03.214 --> 00:21:08.832
+<v Tang, John>Saba to Degreed so that Degreed would be
+able to display those as.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/153-0
+00:21:09.472 --> 00:21:13.759
+<v Tang, John>You know,
+assigned learning that has a due date and</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/153-1
+00:21:13.759 --> 00:21:20.025
+<v Tang, John>in order to do that because of how the
+degree is keying off the content ID,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/153-2
+00:21:20.025 --> 00:21:25.632
+<v Tang, John>we're sending these flat files through
+Globalscape. It's a pending.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/157-0
+00:21:26.592 --> 00:21:34.051
+<v Tang, John>Or it's it's adding a unique key to add.
+I believe it it concatenates the user ID</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/157-1
+00:21:34.051 --> 00:21:41.693
+<v Tang, John>with the content identifier or the course
+identifier along with the the new the new</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/157-2
+00:21:41.693 --> 00:21:42.512
+<v Tang, John>due date.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/161-0
+00:21:42.832 --> 00:21:46.297
+<v Tang, John>So if it's, you know,
+if you you've gotten new harassment</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/161-1
+00:21:46.297 --> 00:21:51.196
+<v Tang, John>course that's due this year, that'll be,
+you know, that'll create a new distinct,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/161-2
+00:21:51.196 --> 00:21:56.215
+<v Tang, John>unique identifier than last year's course
+because that would have been tagged with,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/161-3
+00:21:56.215 --> 00:21:57.112
+<v Tang, John>you know, 2025.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/165-0
+00:21:58.032 --> 00:22:03.104
+<v Tang, John>So that allows us to solve for that
+problem of the new unique identifier.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/165-1
+00:22:03.104 --> 00:22:08.519
+<v Tang, John>But we've been seeing some issues with
+the global scape process where for some</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/165-2
+00:22:08.519 --> 00:22:13.112
+<v Tang, John>reason or another it's, you know,
+it's not able to pick up a file.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/170-0
+00:22:13.552 --> 00:22:16.615
+<v Tang, John>Or it has an issue with the the file in
+transit,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/170-1
+00:22:16.615 --> 00:22:21.429
+<v Tang, John>or it has an issue with the PowerShell
+job where it does that concatenation.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/170-2
+00:22:21.429 --> 00:22:26.492
+<v Tang, John>Or also we've seen issues where you know
+if it's trying to send the file over to</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/170-3
+00:22:26.492 --> 00:22:31.306
+<v Tang, John>the degree SFTP for one reason or another,
+it's you know they're having some</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/170-4
+00:22:31.306 --> 00:22:32.432
+<v Tang, John>connection issues.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/175-0
+00:22:32.912 --> 00:22:38.459
+<v Tang, John>So then we're running into the problem of
+records not being sent over to Degreed in</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/175-1
+00:22:38.459 --> 00:22:43.743
+<v Tang, John>a consistent manner. So then we're having,
+we've been kind of chasing some data</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/175-2
+00:22:43.743 --> 00:22:48.960
+<v Tang, John>discrepancies between two systems because
+we're having some failures somewhere</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/175-3
+00:22:48.960 --> 00:22:51.272
+<v Tang, John>throughout the kind of the process.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/180-0
+00:22:53.912 --> 00:22:58.556
+<v Tang, John>So we were planning to set up a call with
+our Globalscape team to review this,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/177-0
+00:22:57.352 --> 00:22:57.832
+<v Gray, Cliff>Mhm.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/180-1
+00:22:58.556 --> 00:23:02.142
+<v Tang, John>but we wanted to have.
+I was hoping to have tomorrow on that</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/180-2
+00:23:02.142 --> 00:23:06.552
+<v Tang, John>call to help us kind of just take a look
+at this entire process to see if.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/184-0
+00:23:07.992 --> 00:23:14.262
+<v Tang, John>Everything made sense and maybe to
+suggest any areas where we could add some,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/184-1
+00:23:14.262 --> 00:23:19.327
+<v Tang, John>you know, job reruns,
+some errors or some flags where we could</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/184-2
+00:23:19.327 --> 00:23:24.392
+<v Tang, John>reprocess the job because there there is
+one last caveat that.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/185-0
+00:23:24.832 --> 00:23:26.832
+<v Tang, John>Degreed has.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/190-0
+00:23:27.632 --> 00:23:33.444
+<v Tang, John>Degreed receives these files and ingests
+them and these jobs run on a timer.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/190-1
+00:23:33.444 --> 00:23:36.992
+<v Tang, John>So if a file is dropped after that job is
+run,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/190-2
+00:23:36.992 --> 00:23:43.032
+<v Tang, John>then it won't get picked up until the
+following day and then also degreed only.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/195-0
+00:23:43.432 --> 00:23:46.509
+<v Tang, John>Pulls one job per day. So if we miss one,
+you know,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/195-1
+00:23:46.509 --> 00:23:49.408
+<v Tang, John>one file today and we drop 2 files for
+tomorrow,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/195-2
+00:23:49.408 --> 00:23:52.012
+<v Tang, John>it's only going to pick up the latest
+file.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/195-3
+00:23:52.012 --> 00:23:55.858
+<v Tang, John>So we potentially or we are missing
+records from that, you know,</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/195-4
+00:23:55.858 --> 00:23:57.752
+<v Tang, John>initial file that was sent over.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/194-0
+00:23:59.832 --> 00:24:00.392
+<v Gray, Cliff>OK.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/199-0
+00:24:04.032 --> 00:24:10.592
+<v Gray, Cliff>I think I saw a meeting invite uh from
+Melissa. Uh from Monday. Is that correct?</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/204-0
+00:24:10.352 --> 00:24:13.698
+<v Tang, John>Yes. Yeah.
+So that was the call that we had</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/204-1
+00:24:13.698 --> 00:24:19.631
+<v Tang, John>initially scheduled with Globalscape to
+review this process with them because</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/204-2
+00:24:19.631 --> 00:24:25.032
+<v Tang, John>there are a few points where we do get
+some messages from Globalscape.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/208-0
+00:24:25.472 --> 00:24:30.598
+<v Tang, John>But and so we we've, you know,
+we implemented some confirmation messages</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/203-0
+00:24:25.632 --> 00:24:26.152
+<v Gray, Cliff>Mhm.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/208-1
+00:24:30.598 --> 00:24:35.795
+<v Tang, John>from Globalscape to let us know when
+these files were successfully pushed</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/208-2
+00:24:35.795 --> 00:24:39.237
+<v Tang, John>through.
+But we're finding that even though they</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/208-3
+00:24:39.237 --> 00:24:40.712
+<v Tang, John>are success messages.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/210-0
+00:24:41.072 --> 00:24:46.312
+<v Tang, John>Sometimes these are kind of false
+positives in in some cases.</v>
+
+41b19156-e2ac-4822-9cf4-dd60cac1875b/212-0
+00:24:50.952 --> 00:24:51.072
+<v Tang, John>It.</v>

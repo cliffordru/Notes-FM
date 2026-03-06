@@ -1,0 +1,3 @@
+C:\all\projects\leanix_connectivity_queries
+
+This is a vs project to QUERY leanix
