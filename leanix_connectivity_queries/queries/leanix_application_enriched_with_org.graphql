@@ -1,0 +1,158 @@
+query application_enriched {
+  allFactSheets(
+    filter: {responseOptions: {maxFacetDepth: 10}, facetFilters: [{facetKey: "FactSheetTypes", operator: OR, keys: ["Application"]}]}
+  ) {
+    totalCount
+    edges {
+      node {
+        ... on Application {
+          id
+          name
+          displayName
+          alias
+          description
+          createdAt
+          updatedAt
+          businessCriticality
+          businessCriticalityDescription
+          functionalSuitability
+          functionalSuitabilityDescription
+          technicalSuitability
+          technicalSuitabilityDescription
+          aggregatedObsolescenceRisk
+          mitigatedObsolescenceRiskPercentage
+          unaddressedObsolescenceRiskPercentage
+          subscriptions {
+            edges {
+              node {
+                type
+                user {
+                  displayName
+                  email
+                  role
+                }
+                roles {
+                  name
+                  description
+                }
+              }
+            }
+          }
+          relTechOwnerApplicationToUserGroup {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+          relApplicationToUserGroup {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+          lifecycle {
+            asString
+            phases {
+              phase
+              startDate
+              milestoneId
+            }
+          }
+          relTechOwnerApplicationToUserGroup {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+          relApplicationToBusinessCapability {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+          relApplicationToITComponent {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+          relConsumerApplicationToInterface {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+          relProviderApplicationToInterface {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+          documents {
+            edges {
+              node {
+                name
+                url
+                documentType
+                description
+              }
+            }
+          }
+          fullName
+          relRelOrgToAppApplicationToUserGroup {
+            edges {
+              node {
+                id
+                factSheet {
+                  fullName
+                  name
+                }
+              }
+            }
+          }
+        }
+        id
+        name
+        displayName
+        type
+        status
+        updatedAt
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+query factSheetDetailsQuery($filter: FilterInput!, $sortings: [Sorting]) {
+  allFactSheets(first: 1500, filter: $filter, sort: $sortings) {
+    totalCount
+    pageInfo {
+      hasNextPage
+      hasPreviousPage
+      startCursor
+      endCursor
+    }
+    edges {
+      node {
+        ... on Application {
+          id
+          name
+          alias
+          description
+          displayName
+          createdAt
+          updatedAt
+        }
+      }
+    }
+  }
+}

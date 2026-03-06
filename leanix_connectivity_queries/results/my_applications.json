@@ -1,0 +1,312 @@
+[
+  {
+    "id": "d373c01d-ac51-4383-973d-af3e82ba8564",
+    "name": "Atlas",
+    "alias": "atlas",
+    "displayName": "Atlas",
+    "description": "🗺️ **Atlas: FM Global’s Next-Generation Geospatial Intelligence Platform**\n\n**Atlas** is FM Global’s enterprise-grade mapping solution designed to analyze and act on **natural hazard risks** with enhanced functionality, deeper insights, and a vastly improved user experience. It replaces the legacy **RiskView** platform and integrates seamlessly into systems like **CEVO Business Technology Platform (BTP)**, **Polaris**, **Map Center**, and the **Climate Resilience Tracker**.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2024-10-25T19:08:43.308555Z",
+    "updatedAt": "2026-01-28T21:24:30.021867Z",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2023-06-01"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Todd Mather",
+              "email": "todd.mather@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "OBSERVER",
+            "user": {
+              "displayName": "Diane Hewitt",
+              "email": "diane.hewitt@fm.com"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "660a7fc9-d4cd-4d08-aef9-cc49337bfd31",
+    "name": "Field Sketch",
+    "alias": "",
+    "displayName": "Field Sketch",
+    "description": "Thick client tool created /owned by EPS used to display and maintain the pre-visit sketch done by the Field Engineer.  This is a WPF Application leveraging the Bentley CAD Company SDKs.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2022-07-13T18:02:33.534976Z",
+    "updatedAt": "2026-01-22T19:51:03.739141930Z",
+    "lifecycle": null,
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Keith Ouellet",
+              "email": "keith.ouellet@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "OBSERVER",
+            "user": {
+              "displayName": "Diane Hewitt",
+              "email": "diane.hewitt@fm.com"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "f34148a7-5a08-4f64-b3e4-5e4d2f53963a",
+    "name": "FM Connect",
+    "alias": "fm-connect",
+    "displayName": "FM Connect",
+    "description": "FM Connect is a data engineering solution designed to establish the data foundation necessary to address ITIL Service Asset and Configuration Management (SACM) challenges within the organization. It focuses exclusively on data integration, transformation, and availability to enable a connected enterprise data layer. The solution is responsible for extracting data from siloed systems, standardizing it through well-defined data models, and making it available for consumption by reporting tools, analytics platforms, and potential future applications. This document outlines the technical approach, architecture, and implementation strategy for the FM Connect data engineering solution.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2025-09-26T13:36:02.325644Z",
+    "updatedAt": "2026-01-19T17:45:30.926010Z",
+    "lifecycle": null,
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Tamur Haq",
+              "email": "tamur.haq@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Yasmin Chowhan",
+              "email": "yasmin.chowhan@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "OBSERVER",
+            "user": {
+              "displayName": "Jason Bernier",
+              "email": "jason.bernier@fm.com"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "05901e24-7de7-4ac3-944c-f9284d2e2c69",
+    "name": "NatHaz Assessments",
+    "alias": "NULL",
+    "displayName": "NatHaz Assessments",
+    "description": "NatHaz Assessments is an N-Tier application that enables Natural Hazard Loss Expectancies for Flood, Wind, Quake, and Wildfire hazards for Engineering, Servicing, and Underwriting at all FM Global client locations to minimize unexpected losses, improve underwriting, and enable Risk Improvement scores.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2022-05-26T19:17:00.493329Z",
+    "updatedAt": "2026-01-26T20:00:12.243445804Z",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2022-01-21"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Vidyavathy Renganathan",
+              "email": "vidya.renganathan@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Andrea Mancini",
+              "email": "andrea.mancini@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "e157819c-e904-49d5-a424-94fc522faaee",
+    "name": "RiskView",
+    "alias": "",
+    "displayName": "RiskView",
+    "description": "RiskView is a map-based application that provides a foundation that will allows for map display of geographic data from the Enterprise Geospatial Database  FM Global and 3rd party nat haz and weather data  and relevant location data sourced from existing",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2022-05-26T19:17:00.376497Z",
+    "updatedAt": "2026-01-26T20:06:10.699240222Z",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "phaseIn",
+          "startDate": "2018-12-18"
+        },
+        {
+          "phase": "active",
+          "startDate": "2018-12-18"
+        },
+        {
+          "phase": "phaseOut",
+          "startDate": "2026-02-02"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Nicholas Blake",
+              "email": "nicholas.blake@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Todd Mather",
+              "email": "todd.mather@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "OBSERVER",
+            "user": {
+              "displayName": "Diane Hewitt",
+              "email": "diane.hewitt@fm.com"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

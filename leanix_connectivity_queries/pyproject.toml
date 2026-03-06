@@ -1,0 +1,14 @@
+[project]
+name = "leanix-connectivity-queries"
+version = "0.1.0"
+description = "LeanIX GraphQL API connectivity and data retrieval scripts"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]

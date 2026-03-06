@@ -1,0 +1,20 @@
+query getApplicationDocuments($factSheetId: ID!) {
+  factSheet(id: $factSheetId) {
+    id
+    name
+    type
+    ... on Application {
+      documents {
+        edges {
+          node {
+            id
+            name
+            description
+            documentType
+            url
+          }
+        }
+      }
+    }
+  }
+}

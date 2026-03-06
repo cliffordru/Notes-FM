@@ -1,0 +1,156 @@
+query application_enriched {
+  allFactSheets(
+    filter: {
+      responseOptions: { maxFacetDepth: 10 },
+      facetFilters: [
+        { facetKey: "FactSheetTypes", operator: OR, keys: ["Application"] }
+      ]
+    }
+  ) {
+    totalCount
+    edges {
+      node {
+        ... on Application {
+          id
+          name
+          displayName
+          alias
+          description
+          createdAt
+          updatedAt
+          businessCriticality
+          businessCriticalityDescription
+          functionalSuitability
+          functionalSuitabilityDescription
+          technicalSuitability
+          technicalSuitabilityDescription
+          aggregatedObsolescenceRisk
+          mitigatedObsolescenceRiskPercentage
+          unaddressedObsolescenceRiskPercentage
+
+          # Subscriptions (ownership, accountability etc.)
+          subscriptions {
+            edges {
+              node {
+                type
+                user {
+                  displayName
+                  email
+                  role
+                }
+                roles {
+                  name
+                  description
+                }
+              }
+            }
+          }
+
+          # Related ownership and user groups
+          relTechOwnerApplicationToUserGroup {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+
+          # Groups that use, support, or manage the app
+          relApplicationToUserGroup {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+        
+          # Lifecycle Information
+          lifecycle {
+            asString
+            phases {
+              phase
+              startDate
+              milestoneId
+            }
+          }
+
+          # Relationships to other key factsheets
+          relApplicationToBusinessCapability {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+
+          relApplicationToITComponent {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+
+          relConsumerApplicationToInterface {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+
+          relProviderApplicationToInterface {
+            edges {
+              node {
+                factSheet {
+                  id
+                  displayName
+                  type
+                }
+              }
+            }
+          }
+
+          documents {
+            edges {
+              node {
+                name
+                url
+                documentType
+                description
+              }
+            }
+          }
+        }
+
+        # Common fields shared by all FactSheets
+        id
+        name
+        displayName
+        type
+        status
+        updatedAt
+      }
+    }
+  }
+}

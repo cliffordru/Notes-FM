@@ -1,0 +1,1320 @@
+{
+  "ARGUS Enterprise": {
+    "id": "3ad50752-a1c9-4b34-99f8-9823f051a922",
+    "name": "ARGUS Enterprise",
+    "alias": "Argus",
+    "displayName": "ARGUS Enterprise",
+    "description": "ARGUS Enterprise provides software solutions for the CRE Industry. ARGUS cloud leverages deeper insights, collaborate across teams, and streamlines commercial real estate workflows.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2022-06-08T17:17:23.169913Z",
+    "updatedAt": "2026-03-03T17:57:36.716245908Z",
+    "businessCriticality": null,
+    "businessCriticalityDescription": "",
+    "functionalSuitability": "appropriate",
+    "functionalSuitabilityDescription": "",
+    "technicalSuitability": "adequate",
+    "technicalSuitabilityDescription": "",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2021-12-31"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Richard Carroll",
+              "email": "richard.carroll@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Barbara Kowack-Murthy",
+              "email": "barbara.kowack-murthy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        }
+      ]
+    },
+    "documents": {
+      "edges": [
+        {
+          "node": {
+            "name": "repo_APIChapter/EnterpriseSecurity.Net6.0",
+            "url": "https://dev.azure.com/fmglobal/APIChapter/_git/EnterpriseSecurity.Net6.0",
+            "documentType": "website",
+            "description": "Project: APIChapter | URL: https://dev.azure.com/fmglobal/APIChapter/_git/EnterpriseSecurity.Net6.0 | Added by automated cleanup script on 2026-02-12 14:19:37"
+          }
+        }
+      ]
+    },
+    "tags": [],
+    "relApplicationToITComponent": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "83c0b079-3233-4829-956f-ed08d46844f1",
+              "name": "Argus Data Manager",
+              "displayName": "Argus Data Manager",
+              "category": "software",
+              "description": "Provides the data translation for Yardi data to Argus Enterprise"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToUserGroup": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "0ca16191-fa44-4690-a98d-8eccd7b9cb88",
+              "name": "Finance",
+              "displayName": "Finance"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToBusinessCapability": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "0bd59379-5b12-4679-b2dd-8d34223e5c52",
+              "name": "Real Estate",
+              "displayName": "Hobbs Brook / Real Estate"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Bloomberg Anywhere": {
+    "id": "d0a783c7-b6a2-4527-a8d9-efc30c6557b9",
+    "name": "Bloomberg Anywhere",
+    "alias": "Bloomberg Cash Management",
+    "displayName": "Bloomberg Anywhere",
+    "description": "The software subscription provided web-based access for a 3rd parting terminal hosting so FM Global can communicate with the banks for currency information/rates.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2022-06-08T17:17:23.229614Z",
+    "updatedAt": "2026-03-03T17:57:39.704994330Z",
+    "businessCriticality": null,
+    "businessCriticalityDescription": "",
+    "functionalSuitability": "appropriate",
+    "functionalSuitabilityDescription": "",
+    "technicalSuitability": "adequate",
+    "technicalSuitabilityDescription": "",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2018-12-18"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Barbara Kowack-Murthy",
+              "email": "barbara.kowack-murthy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Richard Carroll",
+              "email": "richard.carroll@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        }
+      ]
+    },
+    "documents": {
+      "edges": []
+    },
+    "tags": [
+      {
+        "id": "dd5b1e99-ccc9-4b95-9557-9a9ec2f59dc1",
+        "name": "#ROPA_Finance",
+        "tagGroup": {
+          "id": "5ba6f0e6-b722-4299-b97b-e4809f6148e7",
+          "name": "ROPA",
+          "shortName": null
+        }
+      }
+    ],
+    "relApplicationToITComponent": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "c0aa64e8-762c-498b-aeb8-fafabb1c47fa",
+              "name": "Bloomberg Bloomberg Terminal  1.x",
+              "displayName": "Bloomberg Bloomberg Bloomberg Terminal  1.x",
+              "category": "software",
+              "description": "The Bloomberg Terminal is a computer software system provided by the financial data vendor Bloomberg L.P. that gives our finance cash management users the ability monitor and analyze real-time financial market data and place trades on the electronic trading platform. The system also provides news, price quotes, and messaging across its proprietary secure network."
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToUserGroup": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "0ca16191-fa44-4690-a98d-8eccd7b9cb88",
+              "name": "Finance",
+              "displayName": "Finance"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToBusinessCapability": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "d6a532a7-a77a-4ada-a781-6b729d0762f7",
+              "name": "Investments",
+              "displayName": "Investments"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Clearwater Analytics": {
+    "id": "284af6d1-8c7c-41d7-9033-2e4e68b609e3",
+    "name": "Clearwater Analytics",
+    "alias": "CWAN",
+    "displayName": "Clearwater Analytics",
+    "description": "Unified platform for investment operations and investment accounting",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2025-07-18T15:47:21.490939Z",
+    "updatedAt": "2026-03-03T17:57:47.947803250Z",
+    "businessCriticality": null,
+    "businessCriticalityDescription": "",
+    "functionalSuitability": null,
+    "functionalSuitabilityDescription": "",
+    "technicalSuitability": null,
+    "technicalSuitabilityDescription": "",
+    "lifecycle": null,
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Richard Carroll",
+              "email": "richard.carroll@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Barbara Kowack-Murthy",
+              "email": "barbara.kowack-murthy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        }
+      ]
+    },
+    "documents": {
+      "edges": [
+        {
+          "node": {
+            "name": "https://cwan.com/",
+            "url": "https://cwan.com/",
+            "documentType": "documentation",
+            "description": null
+          }
+        }
+      ]
+    },
+    "tags": [],
+    "relApplicationToITComponent": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "e2931e56-e315-461e-b882-0b505145a294",
+              "name": "Azure Active Directory",
+              "displayName": "Microsoft / Azure Azure Active Directory",
+              "category": "saas",
+              "description": "Microsoft's cloud-based identity and access management service"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToUserGroup": {
+      "edges": []
+    },
+    "relApplicationToBusinessCapability": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "d6a532a7-a77a-4ada-a781-6b729d0762f7",
+              "name": "Investments",
+              "displayName": "Investments"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "NetDocuments": {
+    "id": "d0c98f33-cef8-45b7-8b6f-1bf8efa25323",
+    "name": "NetDocuments",
+    "alias": "",
+    "displayName": "NetDocuments",
+    "description": "NetDocuments provides solutions to automate document and email management for legal professionals.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2024-08-08T19:53:22.817449Z",
+    "updatedAt": "2026-03-03T17:58:29.576027127Z",
+    "businessCriticality": null,
+    "businessCriticalityDescription": "",
+    "functionalSuitability": null,
+    "functionalSuitabilityDescription": "",
+    "technicalSuitability": null,
+    "technicalSuitabilityDescription": "",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2022-06-01"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Barbara Kowack-Murthy",
+              "email": "barbara.kowack-murthy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Richard Carroll",
+              "email": "richard.carroll@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        }
+      ]
+    },
+    "documents": {
+      "edges": []
+    },
+    "tags": [
+      {
+        "id": "d0c6f1d2-4a19-4cce-957a-e9ce7859068f",
+        "name": "#ROPA_Legal",
+        "tagGroup": {
+          "id": "5ba6f0e6-b722-4299-b97b-e4809f6148e7",
+          "name": "ROPA",
+          "shortName": null
+        }
+      }
+    ],
+    "relApplicationToITComponent": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "e2931e56-e315-461e-b882-0b505145a294",
+              "name": "Azure Active Directory",
+              "displayName": "Microsoft / Azure Azure Active Directory",
+              "category": "saas",
+              "description": "Microsoft's cloud-based identity and access management service"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToUserGroup": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "e902537c-2344-4ddb-98e0-7fe9c020fd6a",
+              "name": "Law & Governmental Affairs",
+              "displayName": "Law & Governmental Affairs"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToBusinessCapability": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "2bf79cfb-334a-46a3-be40-a09b02673de2",
+              "name": "Legal",
+              "displayName": "Legal"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "PeopleSoft - Investment Accounting": {
+    "id": "9347f2e9-e84a-4a76-b51a-4e77eed5182e",
+    "name": "PeopleSoft - Investment Accounting",
+    "alias": "",
+    "displayName": "PeopleSoft Enterprise Financials / PeopleSoft - Investment Accounting",
+    "description": "PeopleSoft Financial Investment Accounting module. Financial investment reconciliation.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2025-07-03T20:26:11.527404Z",
+    "updatedAt": "2026-03-03T17:58:36.381337431Z",
+    "businessCriticality": null,
+    "businessCriticalityDescription": "",
+    "functionalSuitability": null,
+    "functionalSuitabilityDescription": "",
+    "technicalSuitability": null,
+    "technicalSuitabilityDescription": "",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2000-01-01"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Richard Carroll",
+              "email": "richard.carroll@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Barbara Kowack-Murthy",
+              "email": "barbara.kowack-murthy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Gregory Velleca",
+              "email": "gregory.velleca@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        }
+      ]
+    },
+    "documents": {
+      "edges": []
+    },
+    "tags": [],
+    "relApplicationToITComponent": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "5678ade2-55b9-4b8d-bfbe-284588ecd412",
+              "name": "Enhanced File Transfer",
+              "displayName": "Fortra / GlobalSCAPE Enhanced File Transfer",
+              "category": "software",
+              "description": "GlobalSCAPE Enhanced File Transfer (EFT) secures, manages, and tracks data transferred between people and applications both inside and outside your organization. EFT Enterprise is a best-in-class managed file transfer (MFT) solution for enterprises with complex and mission-critical file transfer requirements. EFT can reduce complexity of your file transfer infrastructure, increase operational efficiency, and protect your most important data."
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "0842e17b-03b0-4aec-a135-5f897c642381",
+              "name": "Microsoft Windows Server",
+              "displayName": "Microsoft Microsoft Windows Server",
+              "category": "software",
+              "description": null
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "355d16b8-45f9-41e2-b131-c6b4d34de7d4",
+              "name": "Oracle Database",
+              "displayName": "Oracle Oracle Database",
+              "category": "software",
+              "description": "Oracle DBMS"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToUserGroup": {
+      "edges": []
+    },
+    "relApplicationToBusinessCapability": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "21de22fa-b148-4600-a9a1-3bfbd4658462",
+              "name": "Finance",
+              "displayName": "Finance"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Treasura": {
+    "id": "a9bb4bbe-bcfb-4bfc-8373-ff3f19dac91f",
+    "name": "Treasura",
+    "alias": "",
+    "displayName": "Treasura",
+    "description": "Treasura provides enterprise customer data platform solutions. ",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2022-06-21T05:26:04.026013Z",
+    "updatedAt": "2026-03-03T17:59:04.395454487Z",
+    "businessCriticality": null,
+    "businessCriticalityDescription": "",
+    "functionalSuitability": "appropriate",
+    "functionalSuitabilityDescription": "",
+    "technicalSuitability": "adequate",
+    "technicalSuitabilityDescription": "",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2018-12-18"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Barbara Kowack-Murthy",
+              "email": "barbara.kowack-murthy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Richard Carroll",
+              "email": "richard.carroll@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        }
+      ]
+    },
+    "documents": {
+      "edges": []
+    },
+    "tags": [
+      {
+        "id": "dd5b1e99-ccc9-4b95-9557-9a9ec2f59dc1",
+        "name": "#ROPA_Finance",
+        "tagGroup": {
+          "id": "5ba6f0e6-b722-4299-b97b-e4809f6148e7",
+          "name": "ROPA",
+          "shortName": null
+        }
+      }
+    ],
+    "relApplicationToITComponent": {
+      "edges": []
+    },
+    "relApplicationToUserGroup": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "0ca16191-fa44-4690-a98d-8eccd7b9cb88",
+              "name": "Finance",
+              "displayName": "Finance"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToBusinessCapability": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "21de22fa-b148-4600-a9a1-3bfbd4658462",
+              "name": "Finance",
+              "displayName": "Finance"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Yardi Real Estate Suite": {
+    "id": "90ed3383-b2ab-43e6-9828-f73c4e40a411",
+    "name": "Yardi Real Estate Suite",
+    "alias": "Yardi, Voyager",
+    "displayName": "Yardi Real Estate Suite",
+    "description": "Yardi Real Estate Suite is a web-based, fully integrated end-to-end platform property management SaaS platform for office, industrial and retail properties with built-in accounting, real-time performance analytics",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2022-06-21T05:26:04.104139Z",
+    "updatedAt": "2026-03-03T17:59:11.928764207Z",
+    "businessCriticality": null,
+    "businessCriticalityDescription": "",
+    "functionalSuitability": "appropriate",
+    "functionalSuitabilityDescription": "",
+    "technicalSuitability": "adequate",
+    "technicalSuitabilityDescription": "",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2019-08-23"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Richard Carroll",
+              "email": "richard.carroll@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Barbara Kowack-Murthy",
+              "email": "barbara.kowack-murthy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        }
+      ]
+    },
+    "documents": {
+      "edges": []
+    },
+    "tags": [
+      {
+        "id": "dd5b1e99-ccc9-4b95-9557-9a9ec2f59dc1",
+        "name": "#ROPA_Finance",
+        "tagGroup": {
+          "id": "5ba6f0e6-b722-4299-b97b-e4809f6148e7",
+          "name": "ROPA",
+          "shortName": null
+        }
+      }
+    ],
+    "relApplicationToITComponent": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "21399605-a4c2-4ad7-9c75-345b1f280525",
+              "name": "Yardi Construction Manager",
+              "displayName": "Yardi Construction Manager",
+              "category": "saas",
+              "description": "Yardi Component for managing construction projects."
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "854aa515-eaba-4aa9-96d4-9bc171889846",
+              "name": "Yardi COROM",
+              "displayName": "Yardi COROM",
+              "category": "saas",
+              "description": "Yardi COROM for Corp Real Estate."
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "e73e9970-b468-41f9-984b-3e49c71a9027",
+              "name": "Yardi Deal Manager",
+              "displayName": "Yardi Deal Manager",
+              "category": "saas",
+              "description": null
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "64494b7f-5eae-4a47-ad69-3f8935da3a66",
+              "name": "Yardi Forecast Manager",
+              "displayName": "Yardi Forecast Manager",
+              "category": "saas",
+              "description": "Yardi component for forecasting tenant occupancy"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "62484ec0-22ba-4597-926e-66108f7c3cad",
+              "name": "Yardi One",
+              "displayName": "Yardi One",
+              "category": "saas",
+              "description": "Yardi front end for listing available applications"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "cb4c3123-6bea-43da-a847-3ec33ffb819a",
+              "name": "Yardi Voyager",
+              "displayName": "Yardi Systems Yardi Voyager",
+              "category": "software",
+              "description": "Hobbs Brook Property Management and accounting platform. Includes property management, job cost, fixed assets, GL, AR, AP, payscan"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToUserGroup": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "0ca16191-fa44-4690-a98d-8eccd7b9cb88",
+              "name": "Finance",
+              "displayName": "Finance"
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToBusinessCapability": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "0bd59379-5b12-4679-b2dd-8d34223e5c52",
+              "name": "Real Estate",
+              "displayName": "Hobbs Brook / Real Estate"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "Atlas": {
+    "id": "d373c01d-ac51-4383-973d-af3e82ba8564",
+    "name": "Atlas",
+    "alias": "atlas",
+    "displayName": "Atlas",
+    "description": "🗺️ **Atlas: FM Global’s Next-Generation Geospatial Intelligence Platform**\n\n**Atlas** is FM Global’s enterprise-grade mapping solution designed to analyze and act on **natural hazard risks** with enhanced functionality, deeper insights, and a vastly improved user experience. It replaces the legacy **RiskView** platform and integrates seamlessly into systems like **CEVO Business Technology Platform (BTP)**, **Polaris**, **Map Center**, and the **Climate Resilience Tracker**.",
+    "type": "Application",
+    "status": "ACTIVE",
+    "createdAt": "2024-10-25T19:08:43.308555Z",
+    "updatedAt": "2026-03-03T17:57:37.347023198Z",
+    "businessCriticality": null,
+    "businessCriticalityDescription": "",
+    "functionalSuitability": null,
+    "functionalSuitabilityDescription": "",
+    "technicalSuitability": null,
+    "technicalSuitabilityDescription": "",
+    "lifecycle": {
+      "asString": "active",
+      "phases": [
+        {
+          "phase": "active",
+          "startDate": "2023-06-01"
+        }
+      ]
+    },
+    "subscriptions": {
+      "edges": [
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Clifford Gray",
+              "email": "clifford.gray@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Todd Mather",
+              "email": "todd.mather@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "RESPONSIBLE",
+            "user": {
+              "displayName": "Phillip Murphy",
+              "email": "phillip.murphy@fm.com"
+            }
+          }
+        },
+        {
+          "node": {
+            "type": "OBSERVER",
+            "user": {
+              "displayName": "Diane Hewitt",
+              "email": "diane.hewitt@fm.com"
+            }
+          }
+        }
+      ]
+    },
+    "documents": {
+      "edges": [
+        {
+          "node": {
+            "name": "repository|dce-atlas-ui",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/dce-atlas-ui",
+            "documentType": "documentation",
+            "description": null
+          }
+        },
+        {
+          "node": {
+            "name": "repository|atlas-geoserver",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/atlas-geoserver",
+            "documentType": "documentation",
+            "description": null
+          }
+        },
+        {
+          "node": {
+            "name": "repository|atlas-gis-ssis",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/atlas-gis-ssis",
+            "documentType": "documentation",
+            "description": null
+          }
+        },
+        {
+          "node": {
+            "name": "repository|atlas-gis-db",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/atlas-gis-db",
+            "documentType": "documentation",
+            "description": null
+          }
+        },
+        {
+          "node": {
+            "name": "veracode",
+            "url": "https://analysiscenter.veracode.com/auth/index.jsp#HomeAppProfile:34278:1923478",
+            "documentType": "information",
+            "description": "Veracode application metadata for an app called DCE.Atlas.UI.\nThe file identifies it as belonging to account 34278, with Veracode app ID 1923478.\nThe application is considered high business criticality and follows the FM Internal security policy, last updated in January 2026. It belongs to the team DCE.AllProfiles.\nAssociated resources\nFM Asset ID / LeanIX ID: d373c01d‑ac51‑4383‑973d‑af3e82ba8564\nRepository: https://dev.azure.com/fmglobal/DCE/_git/dce‑atlas‑ui\nPipeline (build definition): https://dev.azure.com/fmglobal/DCE/_build?definitionId=8585"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/dce-atlas-ui",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/dce-atlas-ui",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/dce-atlas-ui | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/atlas-geoserver",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/atlas-geoserver",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/atlas-geoserver | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/atlas-gis-ssis",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/atlas-gis-ssis",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/atlas-gis-ssis | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/atlas-gis-db",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/atlas-gis-db",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/atlas-gis-db | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/apim-esriservices-api",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/apim-esriservices-api",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/apim-esriservices-api | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/react-riskbusters-test-app",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/react-riskbusters-test-app",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/react-riskbusters-test-app | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/dce-esri-components",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/dce-esri-components",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/dce-esri-components | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/apim_geofacts_api",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/apim_geofacts_api",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/apim_geofacts_api | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/EGIS",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/EGIS",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/EGIS | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/EGIS_migration_test",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/EGIS_migration_test",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/EGIS_migration_test | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        },
+        {
+          "node": {
+            "name": "repo_DCE/EGIS-enterprise",
+            "url": "https://dev.azure.com/fmglobal/DCE/_git/EGIS-enterprise",
+            "documentType": "website",
+            "description": "Project: DCE | URL: https://dev.azure.com/fmglobal/DCE/_git/EGIS-enterprise | Added by automated cleanup script on 2026-02-12 14:19:38"
+          }
+        }
+      ]
+    },
+    "tags": [
+      {
+        "id": "0c04826e-79d1-4ff3-a65c-31ca974a4043",
+        "name": "#ROPA_Engineering",
+        "tagGroup": {
+          "id": "5ba6f0e6-b722-4299-b97b-e4809f6148e7",
+          "name": "ROPA",
+          "shortName": null
+        }
+      }
+    ],
+    "relApplicationToITComponent": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "2fefa27e-0133-4c48-a7c4-acb9eac31153",
+              "name": "CoreLogic Residential Component Technology",
+              "displayName": "CoreLogic CoreLogic Residential Component Technology",
+              "category": "software",
+              "description": "RCT lets field estimators and underwriters calculate the most reliable replacement values for virtually any kind of home - from turn of the century painted ladies to contemporary homes  condos and co-ops. Built upon the 'total component' methodology origi"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "12a1a702-06ed-4f52-b8cd-d82204e7b7bc",
+              "name": "CoreLogic WVS (Weather Verification Services)",
+              "displayName": "CoreLogic CoreLogic WVS (Weather Verification Services)",
+              "category": null,
+              "description": "CoreLogic offers trusted weather verification solutions, including hail and wind verification reports, hail alert notifications, and lightning reports"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "740027dc-3a36-4abe-80a4-908e1d5b3a4c",
+              "name": "Flood Determination",
+              "displayName": "CoreLogic Flood Determination",
+              "category": null,
+              "description": "CoreLogic Flood Determination provides detailed flood zone determinations and flood hazard information for properties in the U.S."
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "a936baa3-74c9-4dec-b3c5-e66c5a51f51e",
+              "name": "CoreLogic Parcel Point",
+              "displayName": "CoreLogic Parcel Point",
+              "category": null,
+              "description": null
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "09604af7-3f5b-47f6-85a9-fef81757ccb1",
+              "name": "Corelogic Proxix",
+              "displayName": "Corelogic Proxix",
+              "category": "software",
+              "description": "This software is used by the BIM and BMS applications to gather Lat/Long information for the Insurance applications."
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "c8b2f70c-2048-4f6b-99f0-948228d55dd9",
+              "name": "ArcGIS Enterprise",
+              "displayName": "ESRI ArcGIS Enterprise",
+              "category": "software",
+              "description": "ArcGIS Enterprise is the FM Global's central repository of GIS database, map, applications and services."
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "2d140000-1844-4620-82f0-e00174c17029",
+              "name": "ArcGIS Pro",
+              "displayName": "ESRI ArcGIS Pro",
+              "category": "software",
+              "description": "GIS data development, and processing software used within the FM for GIS analysis"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "b04755a8-2b71-4e33-a9cc-9b2b8c497164",
+              "name": "GeognoSIS",
+              "displayName": "GeognoSIS",
+              "category": null,
+              "description": "GeognoSIS� is a Windows Service that provides extensive mapping, analysis, data management and manipulation for multiple applications and services."
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "9545ddd2-3a6d-477e-a01d-b0028ca37327",
+              "name": "GIC Aerial Image and Map Services",
+              "displayName": "GIC Aerial Image and Map Services",
+              "category": null,
+              "description": "Aerial images and maps services provided by Geospatial Insurance Consortium (GIC)"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "7cdc8947-7248-450e-a77a-d9d4555dce56",
+              "name": "Bing Maps",
+              "displayName": "Microsoft Bing Maps",
+              "category": "saas",
+              "description": "Microsoft Bing Maps offers solutions to multiple locations, get transit/walking/driving directions, view live traffic conditions, plan trips, view satellite, aerial and street side imagery."
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "aceba0e2-915e-46dd-8892-0c466b8cabc6",
+              "name": "Microsoft Excel",
+              "displayName": "Microsoft Microsoft Excel",
+              "category": "software",
+              "description": "Microsoft Excel (part of M365 Suite)"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "bf823e7f-a4c5-4f88-bc4a-73d8a2cf3e83",
+              "name": "Microsoft Outlook",
+              "displayName": "Microsoft Microsoft Outlook",
+              "category": "software",
+              "description": null
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "a4c8750e-ee42-4606-9cfc-e8e88665664e",
+              "name": "SQL Server Reporting Services",
+              "displayName": "Microsoft SQL Server Reporting Services",
+              "category": "software",
+              "description": "SQL Server Reporting Services"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "b7eadfcb-91e8-418e-93f8-de59fef1747f",
+              "name": "Nearmap",
+              "displayName": "Nearmap",
+              "category": null,
+              "description": "Nearmap is aerial imaginary service provider that Atlas and its components rely on."
+            }
+          }
+        }
+      ]
+    },
+    "relApplicationToUserGroup": {
+      "edges": []
+    },
+    "relApplicationToBusinessCapability": {
+      "edges": [
+        {
+          "node": {
+            "factSheet": {
+              "id": "28fc8676-b89b-46f6-bf2f-b36b6709cd85",
+              "name": "Claims support",
+              "displayName": "Claims / Claims support"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "a84e8863-3889-4866-9256-d508c4c43dc8",
+              "name": "Provide mapping and GIS Services",
+              "displayName": "Engineering / Engineering support / Provide mapping and GIS Services"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "26f366c9-8f89-4b14-be47-78e5d042dcda",
+              "name": "Field servicing/risk assessment",
+              "displayName": "Engineering / Location level risk assessment / Field servicing/risk assessment"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "729357f3-4a65-484e-bef7-45689d844aac",
+              "name": "Managing indexing/assignment of work",
+              "displayName": "Engineering / Location level risk assessment / Managing indexing/assignment of work"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "d1141279-ada1-4a61-b047-99e96e339367",
+              "name": "Pre-visit planning & preparation",
+              "displayName": "Engineering / Location level risk assessment / Pre-visit planning & preparation"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "6a6acc1e-4c2f-435a-9e74-3305ad9d9fa3",
+              "name": "Understand client exposure and values",
+              "displayName": "Underwriting / Risk assessment / Understand client exposure and values"
+            }
+          }
+        },
+        {
+          "node": {
+            "factSheet": {
+              "id": "8f295762-804c-4534-be57-1c9c5c4c477d",
+              "name": "Aggregate management",
+              "displayName": "Underwriting / Underwriting support / Aggregate management"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

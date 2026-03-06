@@ -1,0 +1,22 @@
+mutation createApplicationDocument(
+  $factSheetId: ID!
+  $name: String!
+  $description: String
+  $documentType: String!
+  $url: String!
+) {
+  createDocument(
+    factSheetId: $factSheetId
+    name: $name
+    description: $description
+    documentType: $documentType
+    url: $url
+  ) {
+    id
+    name
+    documentType
+    url
+    description
+    createdAt
+  }
+}
